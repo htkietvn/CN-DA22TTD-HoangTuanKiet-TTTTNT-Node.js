@@ -1,0 +1,539 @@
+[
+  {
+    "_id": "692c4f6caacc38d10c2da9cd",
+    "title": "AI Center khai giảng khóa học Machine Learning mới",
+    "content": "AI Center vui mừng thông báo khai giảng khóa học Machine Learning cơ bản dành cho người mới bắt đầu. Khóa học sẽ bắt đầu từ ngày 15/02/2024 với đội ngũ giảng viên giàu kinh nghiệm.",
+    "summary": "Khóa học Machine Learning cơ bản dành cho người mới bắt đầu sẽ khai giảng vào tháng 2/2024",
+    "image": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "author": "692c4f6caacc38d10c2da997",
+    "category": "Events",
+    "tags": [
+      "Machine Learning",
+      "Khóa học",
+      "Khai giảng"
+    ],
+    "views": 214,
+    "isPublished": true,
+    "createdAt": "2025-11-30T14:06:36.670Z",
+    "updatedAt": "2025-12-17T00:29:17.082Z",
+    "__v": 0,
+    "detailedContent": "Machine Learning - Nền tảng của AI hiện đại\n\n    Machine Learning (ML) là một nhánh của trí tuệ nhân tạo cho phép máy tính học từ dữ liệu mà không cần được lập trình cụ thể. Đây là công nghệ đằng sau nhiều ứng dụng mà chúng ta sử dụng hàng ngày.\n\n    \n    Các loại Machine Learning\n\n    \n      • Supervised Learning (Học có giám sát): Học từ dữ liệu đã được gán nhãn. Ví dụ: phân loại email spam, dự đoán giá nhà.\n\n      • Unsupervised Learning (Học không giám sát): Tìm kiếm pattern trong dữ liệu chưa gán nhãn. Ví dụ: phân cụm khách hàng, giảm chiều dữ liệu.\n\n      • Reinforcement Learning (Học tăng cường): Học thông qua thử và sai. Ví dụ: game AI, robot tự động.\n\n    \n\n    Quy trình xây dựng mô hình ML\n\n    \n      • Thu thập dữ liệu: Lấy dữ liệu từ nhiều nguồn khác nhau\n\n      • Tiền xử lý: Làm sạch, chuẩn hóa dữ liệu\n\n      • Feature Engineering: Tạo các đặc trưng hữu ích\n\n      • Chọn mô hình: Linear Regression, Decision Tree, Neural Network...\n\n      • Training: Huấn luyện mô hình với dữ liệu\n\n      • Evaluation: Đánh giá hiệu suất\n\n      • Deployment: Triển khai vào production\n\n    \n\n    \n      \"Machine Learning là khả năng học mà không được lập trình rõ ràng.\" - Arthur Samuel, 1959\n    \n\n    Công cụ phổ biến\n\n    Các thư viện Python được sử dụng rộng rãi:\n\n    \n      • Scikit-learn: Thư viện ML cổ điển, dễ sử dụng\n\n      • Pandas: Xử lý và phân tích dữ liệu\n\n      • NumPy: Tính toán số học\n\n      • Matplotlib/Seaborn: Trực quan hóa dữ liệu"
+  },
+  {
+    "_id": "692c4f6caacc38d10c2da9cf",
+    "title": "Hội thảo về Deep Learning và ứng dụng",
+    "content": "AI Center tổ chức hội thảo về Deep Learning với sự tham gia của các chuyên gia hàng đầu trong lĩnh vực AI.",
+    "summary": "Tham gia hội thảo miễn phí về Deep Learning và các ứng dụng trong thực tế",
+    "image": "https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "author": "692c4f6caacc38d10c2da997",
+    "category": "Events",
+    "tags": [
+      "Deep Learning",
+      "Hội thảo",
+      "AI"
+    ],
+    "views": 252,
+    "isPublished": true,
+    "createdAt": "2025-11-30T14:06:36.672Z",
+    "updatedAt": "2025-12-17T00:24:43.928Z",
+    "__v": 0,
+    "detailedContent": "Deep Learning - Bước đột phá của AI\n\n    Deep Learning sử dụng mạng neural nhiều lớp để học các biểu diễn phức tạp từ dữ liệu. Công nghệ này đã tạo ra những bước đột phá trong nhận dạng hình ảnh, xử lý ngôn ngữ tự nhiên và nhiều lĩnh vực khác.\n\n    Tại sao Deep Learning lại mạnh?\n\n    Deep Learning có khả năng tự động học các đặc trưng từ dữ liệu thô, không cần feature engineering thủ công. Điều này đặc biệt hữu ích với dữ liệu phi cấu trúc như ảnh, âm thanh, văn bản.\n\n    Các thành phần cơ bản\n\n    1. Neurons và Layers\n\n    Mỗi neuron nhận input, áp dụng trọng số và hàm kích hoạt để tạo output. Nhiều neurons tạo thành một layer.\n\n    2. Activation Functions\n\n    \n      • ReLU: f(x) = max(0, x) - Phổ biến nhất\n\n      • Sigmoid: Cho output từ 0 đến 1\n\n      • Tanh: Cho output từ -1 đến 1\n\n      • Softmax: Dùng cho phân loại đa lớp\n\n    \n\n    3. Loss Functions\n\n    Đo lường sai số giữa dự đoán và thực tế:\n\n    \n      • Mean Squared Error (MSE) cho regression\n\n      • Cross-Entropy cho classification\n\n    \n\n    4. Optimization\n\n    Các thuật toán tối ưu phổ biến:\n\n    \n      • SGD: Stochastic Gradient Descent\n\n      • Adam: Adaptive Moment Estimation\n\n      • RMSprop: Root Mean Square Propagation\n\n    \n\n    \n      \"Deep Learning đã cho phép chúng ta giải quyết những vấn đề mà trước đây tưởng chừng như không thể.\" - Geoffrey Hinton"
+  },
+  {
+    "_id": "692c4f6caacc38d10c2da9d1",
+    "title": "Workshop: Xây dựng Chatbot với Python",
+    "content": "Tham gia workshop thực hành xây dựng chatbot từ đầu. Bạn sẽ học cách sử dụng NLTK, spaCy, và các framework như Rasa để tạo ra một chatbot thông minh.",
+    "summary": "Workshop thực hành xây dựng chatbot sử dụng Python và các thư viện NLP",
+    "image": "https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "author": "692c4f6caacc38d10c2da997",
+    "category": "Events",
+    "tags": [
+      "Workshop",
+      "Chatbot",
+      "Python"
+    ],
+    "views": 286,
+    "isPublished": true,
+    "createdAt": "2025-11-30T14:06:36.673Z",
+    "updatedAt": "2025-12-17T00:14:27.206Z",
+    "__v": 0,
+    "detailedContent": "Xây dựng Chatbot với Python\n\n          Chatbot là ứng dụng AI phổ biến nhất hiện nay. Trong workshop này, bạn sẽ học cách xây dựng chatbot từ cơ bản đến nâng cao.\n\n          Các loại Chatbot\n\n          \n          1. Rule-based Chatbot\n\n          Hoạt động dựa trên các quy tắc được định nghĩa trước. Đơn giản nhưng hạn chế.\n\n          \n            • ✅ Dễ xây dựng và kiểm soát\n\n            • ❌ Không linh hoạt, không học được\n\n          \n\n          2. AI-powered Chatbot\n\n          Sử dụng NLP và Machine Learning để hiểu và trả lời.\n\n          \n            • ✅ Thông minh, học từ dữ liệu\n\n            • ✅ Xử lý được câu hỏi phức tạp\n\n            • ❌ Cần nhiều dữ liệu training\n\n          \n\n          Công cụ xây dựng Chatbot\n\n          \n          Thư viện Python\n\n          \n            • NLTK: Natural Language Toolkit - Xử lý ngôn ngữ cơ bản\n\n            • spaCy: NLP hiện đại, nhanh và chính xác\n\n            • Rasa: Framework chatbot mã nguồn mở\n\n            • ChatterBot: Chatbot đơn giản cho người mới\n\n          \n\n          API và Services\n\n          \n            • OpenAI API: GPT-3.5, GPT-4\n\n            • Dialogflow: Từ Google\n\n            • Microsoft Bot Framework\n\n            • Amazon Lex\n\n          \n\n          Quy trình xây dựng\n\n          \n            • Xác định mục đích: Chatbot làm gì? Phục vụ ai?\n\n            • Thu thập dữ liệu: Câu hỏi và câu trả lời mẫu\n\n            • Xử lý ngôn ngữ: Tokenization, lemmatization\n\n            • Training model: Huấn luyện mô hình NLP\n\n            • Tích hợp: Kết nối với website, app\n\n            • Testing: Kiểm tra và cải thiện\n\n          \n\n          Best Practices\n\n          \n            • Bắt đầu đơn giản, mở rộng dần\n\n            • Có fallback khi không hiểu\n\n            • Cá nhân hóa trải nghiệm\n\n            • Theo dõi và phân tích hội thoại\n\n            • Cập nhật và cải thiện liên tục"
+  },
+  {
+    "_id": "692c4f6caacc38d10c2da9d3",
+    "title": "Hackathon AI 2024 - Đăng ký ngay!",
+    "content": "AI Center tổ chức Hackathon AI 2024 với tổng giải thưởng lên đến 100 triệu đồng. Đây là cơ hội để bạn thể hiện kỹ năng, kết nối với cộng đồng AI.",
+    "summary": "Cuộc thi lập trình AI lớn nhất năm với giải thưởng 100 triệu",
+    "image": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "author": "692c4f6caacc38d10c2da997",
+    "category": "Events",
+    "tags": [
+      "Hackathon",
+      "Competition",
+      "AI"
+    ],
+    "views": 756,
+    "isPublished": true,
+    "createdAt": "2025-11-30T14:06:36.674Z",
+    "updatedAt": "2025-12-17T00:24:57.966Z",
+    "__v": 0,
+    "detailedContent": "Sự kiện AI - Cơ hội học hỏi và kết nối\n\n          Tham gia các sự kiện AI là cách tuyệt vời để học hỏi, thực hành và kết nối với cộng đồng. Đây là nơi bạn có thể áp dụng kiến thức vào thực tế.\n\n          Lợi ích khi tham gia\n\n          \n          🎯 Học hỏi thực tế\n\n          Làm việc với dữ liệu thật, giải quyết vấn đề thực tế, không chỉ lý thuyết.\n\n          🤝 Networking\n\n          Gặp gỡ các chuyên gia, nhà tuyển dụng, và những người có cùng đam mê.\n\n          🏆 Giải thưởng hấp dẫn\n\n          Cơ hội nhận giải thưởng, học bổng, hoặc cơ hội việc làm.\n\n          💼 Xây dựng Portfolio\n\n          Dự án từ hackathon là minh chứng tuyệt vời cho kỹ năng của bạn.\n\n          Chuẩn bị cho Hackathon\n\n          \n          Trước sự kiện\n\n          \n            • Tìm hiểu chủ đề và yêu cầu\n\n            • Chuẩn bị môi trường dev (laptop, tools)\n\n            • Tìm team hoặc đăng ký solo\n\n            • Ôn lại kiến thức cần thiết\n\n          \n\n          Trong sự kiện\n\n          \n            • Brainstorm ý tưởng sáng tạo\n\n            • Phân chia công việc rõ ràng\n\n            • Focus vào MVP (Minimum Viable Product)\n\n            • Chuẩn bị presentation ấn tượng\n\n          \n\n          Sau sự kiện\n\n          \n            • Hoàn thiện dự án\n\n            • Đăng lên GitHub\n\n            • Viết blog về trải nghiệm\n\n            • Giữ liên lạc với team và mentors\n\n          \n\n          Tips để thành công\n\n          \n            • Chọn vấn đề phù hợp: Không quá khó, không quá dễ\n\n            • Sử dụng công cụ có sẵn: API, pre-trained models\n\n            • Demo tốt: Presentation quan trọng như code\n\n            • Quản lý thời gian: Đừng code đến phút cuối\n\n            • Vui vẻ: Đây là cơ hội học hỏi, đừng stress!\n\n          \n\n          \n            \"Hackathon không phải về việc thắng, mà về việc học hỏi và kết nối.\" - Anonymous"
+  },
+  {
+    "_id": "692c4f6caacc38d10c2da9d5",
+    "title": "Học bổng AI Center 2024",
+    "content": "AI Center công bố chương trình học bổng toàn phần năm 2024 dành cho 20 sinh viên xuất sắc. Học bổng bao gồm miễn phí học phí, laptop, và hỗ trợ sinh hoạt phí.",
+    "summary": "Chương trình học bổng toàn phần cho sinh viên xuất sắc",
+    "image": "https://images.pexels.com/photos/267885/pexels-photo-267885.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "author": "692c4f6caacc38d10c2da997",
+    "category": "Events",
+    "tags": [
+      "Scholarship",
+      "Education",
+      "Students"
+    ],
+    "views": 896,
+    "isPublished": true,
+    "createdAt": "2025-11-30T14:06:36.676Z",
+    "updatedAt": "2025-12-17T00:14:27.253Z",
+    "__v": 0,
+    "detailedContent": "Học bổng AI Center 2024\n\n          Đây là một chủ đề quan trọng trong lĩnh vực Trí tuệ nhân tạo và Machine Learning. Hãy cùng tìm hiểu chi tiết về nó.\n\n          Tổng quan\n\n          Chương trình học bổng toàn phần cho sinh viên xuất sắc\n\n          Tại sao chủ đề này quan trọng?\n\n          Trong bối cảnh công nghệ AI đang phát triển nhanh chóng, việc nắm bắt các xu hướng và kiến thức mới là vô cùng cần thiết. Chủ đề này giúp bạn:\n\n          \n            • Hiểu rõ hơn về công nghệ AI hiện đại\n\n            • Áp dụng kiến thức vào thực tế\n\n            • Nâng cao kỹ năng chuyên môn\n\n            • Mở rộng cơ hội nghề nghiệp\n\n          \n\n          Kiến thức cần có\n\n          Để hiểu sâu về chủ đề này, bạn nên có nền tảng về:\n\n          \n            • Toán học: Đại số tuyến tính, xác suất thống kê, giải tích\n\n            • Lập trình: Python, các thư viện ML/DL\n\n            • Machine Learning: Các thuật toán cơ bản\n\n            • Deep Learning: Neural Networks, backpropagation\n\n          \n\n          Tài nguyên học tập\n\n          \n            • Khóa học trực tuyến: Coursera, edX, Udacity\n\n            • Sách: \"Deep Learning\" by Goodfellow, \"Hands-On Machine Learning\"\n\n            • Paper: arXiv.org, Papers with Code\n\n            • Thực hành: Kaggle, GitHub projects\n\n          \n\n          Bước tiếp theo\n\n          Sau khi tìm hiểu về chủ đề này, bạn có thể:\n\n          \n            • Tham gia các khóa học chuyên sâu tại AI Center\n\n            • Thực hành với các dự án thực tế\n\n            • Tham gia cộng đồng AI để trao đổi\n\n            • Áp dụng vào công việc hoặc nghiên cứu\n\n          \n\n          \n            \"Học AI không chỉ là học công nghệ, mà là học cách tư duy và giải quyết vấn đề.\" - AI Center"
+  },
+  {
+    "_id": "692c4f6caacc38d10c2da9d7",
+    "title": "Xu hướng AI năm 2024",
+    "content": "Năm 2024 hứa hẹn là một năm bùng nổ của AI với nhiều công nghệ mới như GPT-4, Multimodal AI, AI trong Healthcare, và Autonomous Systems.",
+    "summary": "Những xu hướng công nghệ AI đáng chú ý trong năm 2024",
+    "image": "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "author": "692c4f6caacc38d10c2da997",
+    "category": "AI",
+    "tags": [
+      "AI",
+      "Xu hướng",
+      "2024"
+    ],
+    "views": 452,
+    "isPublished": true,
+    "createdAt": "2025-11-30T14:06:36.679Z",
+    "updatedAt": "2025-12-17T00:14:27.256Z",
+    "__v": 0,
+    "detailedContent": "Xu hướng AI năm 2024\n\n          Đây là một chủ đề quan trọng trong lĩnh vực Trí tuệ nhân tạo và Machine Learning. Hãy cùng tìm hiểu chi tiết về nó.\n\n          Tổng quan\n\n          Những xu hướng công nghệ AI đáng chú ý trong năm 2024\n\n          Tại sao chủ đề này quan trọng?\n\n          Trong bối cảnh công nghệ AI đang phát triển nhanh chóng, việc nắm bắt các xu hướng và kiến thức mới là vô cùng cần thiết. Chủ đề này giúp bạn:\n\n          \n            • Hiểu rõ hơn về công nghệ AI hiện đại\n\n            • Áp dụng kiến thức vào thực tế\n\n            • Nâng cao kỹ năng chuyên môn\n\n            • Mở rộng cơ hội nghề nghiệp\n\n          \n\n          Kiến thức cần có\n\n          Để hiểu sâu về chủ đề này, bạn nên có nền tảng về:\n\n          \n            • Toán học: Đại số tuyến tính, xác suất thống kê, giải tích\n\n            • Lập trình: Python, các thư viện ML/DL\n\n            • Machine Learning: Các thuật toán cơ bản\n\n            • Deep Learning: Neural Networks, backpropagation\n\n          \n\n          Tài nguyên học tập\n\n          \n            • Khóa học trực tuyến: Coursera, edX, Udacity\n\n            • Sách: \"Deep Learning\" by Goodfellow, \"Hands-On Machine Learning\"\n\n            • Paper: arXiv.org, Papers with Code\n\n            • Thực hành: Kaggle, GitHub projects\n\n          \n\n          Bước tiếp theo\n\n          Sau khi tìm hiểu về chủ đề này, bạn có thể:\n\n          \n            • Tham gia các khóa học chuyên sâu tại AI Center\n\n            • Thực hành với các dự án thực tế\n\n            • Tham gia cộng đồng AI để trao đổi\n\n            • Áp dụng vào công việc hoặc nghiên cứu\n\n          \n\n          \n            \"Học AI không chỉ là học công nghệ, mà là học cách tư duy và giải quyết vấn đề.\" - AI Center"
+  },
+  {
+    "_id": "692c4f6caacc38d10c2da9d9",
+    "title": "AI và Tương lai của Giáo dục",
+    "content": "AI đang cách mạng hóa giáo dục với các ứng dụng như học tập cá nhân hóa, trợ giảng ảo, chấm bài tự động, và phân tích học tập.",
+    "summary": "Cách AI đang thay đổi phương pháp giảng dạy và học tập",
+    "image": "https://images.pexels.com/photos/5905857/pexels-photo-5905857.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "author": "692c4f6caacc38d10c2da997",
+    "category": "AI",
+    "tags": [
+      "AI",
+      "Education",
+      "EdTech"
+    ],
+    "views": 392,
+    "isPublished": true,
+    "createdAt": "2025-11-30T14:06:36.681Z",
+    "updatedAt": "2025-12-17T00:14:27.265Z",
+    "__v": 0,
+    "detailedContent": "AI và Tương lai của Giáo dục\n\n          Đây là một chủ đề quan trọng trong lĩnh vực Trí tuệ nhân tạo và Machine Learning. Hãy cùng tìm hiểu chi tiết về nó.\n\n          Tổng quan\n\n          Cách AI đang thay đổi phương pháp giảng dạy và học tập\n\n          Tại sao chủ đề này quan trọng?\n\n          Trong bối cảnh công nghệ AI đang phát triển nhanh chóng, việc nắm bắt các xu hướng và kiến thức mới là vô cùng cần thiết. Chủ đề này giúp bạn:\n\n          \n            • Hiểu rõ hơn về công nghệ AI hiện đại\n\n            • Áp dụng kiến thức vào thực tế\n\n            • Nâng cao kỹ năng chuyên môn\n\n            • Mở rộng cơ hội nghề nghiệp\n\n          \n\n          Kiến thức cần có\n\n          Để hiểu sâu về chủ đề này, bạn nên có nền tảng về:\n\n          \n            • Toán học: Đại số tuyến tính, xác suất thống kê, giải tích\n\n            • Lập trình: Python, các thư viện ML/DL\n\n            • Machine Learning: Các thuật toán cơ bản\n\n            • Deep Learning: Neural Networks, backpropagation\n\n          \n\n          Tài nguyên học tập\n\n          \n            • Khóa học trực tuyến: Coursera, edX, Udacity\n\n            • Sách: \"Deep Learning\" by Goodfellow, \"Hands-On Machine Learning\"\n\n            • Paper: arXiv.org, Papers with Code\n\n            • Thực hành: Kaggle, GitHub projects\n\n          \n\n          Bước tiếp theo\n\n          Sau khi tìm hiểu về chủ đề này, bạn có thể:\n\n          \n            • Tham gia các khóa học chuyên sâu tại AI Center\n\n            • Thực hành với các dự án thực tế\n\n            • Tham gia cộng đồng AI để trao đổi\n\n            • Áp dụng vào công việc hoặc nghiên cứu\n\n          \n\n          \n            \"Học AI không chỉ là học công nghệ, mà là học cách tư duy và giải quyết vấn đề.\" - AI Center"
+  },
+  {
+    "_id": "692c4f6caacc38d10c2da9db",
+    "title": "Trí tuệ nhân tạo trong Tài chính",
+    "content": "Ngành tài chính đang ứng dụng AI để phát hiện gian lận, đánh giá rủi ro tín dụng, giao dịch tự động, và tư vấn tài chính cá nhân.",
+    "summary": "Ứng dụng AI để phát hiện gian lận và dự đoán thị trường",
+    "image": "https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "author": "692c4f6caacc38d10c2da997",
+    "category": "AI",
+    "tags": [
+      "AI",
+      "Finance",
+      "Fintech"
+    ],
+    "views": 522,
+    "isPublished": true,
+    "createdAt": "2025-11-30T14:06:36.682Z",
+    "updatedAt": "2025-12-17T00:14:27.290Z",
+    "__v": 0,
+    "detailedContent": "Trí tuệ nhân tạo trong Tài chính\n\n          Đây là một chủ đề quan trọng trong lĩnh vực Trí tuệ nhân tạo và Machine Learning. Hãy cùng tìm hiểu chi tiết về nó.\n\n          Tổng quan\n\n          Ứng dụng AI để phát hiện gian lận và dự đoán thị trường\n\n          Tại sao chủ đề này quan trọng?\n\n          Trong bối cảnh công nghệ AI đang phát triển nhanh chóng, việc nắm bắt các xu hướng và kiến thức mới là vô cùng cần thiết. Chủ đề này giúp bạn:\n\n          \n            • Hiểu rõ hơn về công nghệ AI hiện đại\n\n            • Áp dụng kiến thức vào thực tế\n\n            • Nâng cao kỹ năng chuyên môn\n\n            • Mở rộng cơ hội nghề nghiệp\n\n          \n\n          Kiến thức cần có\n\n          Để hiểu sâu về chủ đề này, bạn nên có nền tảng về:\n\n          \n            • Toán học: Đại số tuyến tính, xác suất thống kê, giải tích\n\n            • Lập trình: Python, các thư viện ML/DL\n\n            • Machine Learning: Các thuật toán cơ bản\n\n            • Deep Learning: Neural Networks, backpropagation\n\n          \n\n          Tài nguyên học tập\n\n          \n            • Khóa học trực tuyến: Coursera, edX, Udacity\n\n            • Sách: \"Deep Learning\" by Goodfellow, \"Hands-On Machine Learning\"\n\n            • Paper: arXiv.org, Papers with Code\n\n            • Thực hành: Kaggle, GitHub projects\n\n          \n\n          Bước tiếp theo\n\n          Sau khi tìm hiểu về chủ đề này, bạn có thể:\n\n          \n            • Tham gia các khóa học chuyên sâu tại AI Center\n\n            • Thực hành với các dự án thực tế\n\n            • Tham gia cộng đồng AI để trao đổi\n\n            • Áp dụng vào công việc hoặc nghiên cứu\n\n          \n\n          \n            \"Học AI không chỉ là học công nghệ, mà là học cách tư duy và giải quyết vấn đề.\" - AI Center"
+  },
+  {
+    "_id": "692c4f6caacc38d10c2da9dd",
+    "title": "Multimodal AI: Kết hợp nhiều loại dữ liệu",
+    "content": "Multimodal AI là thế hệ AI mới có khả năng xử lý và kết hợp nhiều loại dữ liệu khác nhau. Bài viết giới thiệu các mô hình như CLIP, Flamingo, GPT-4V.",
+    "summary": "AI có thể xử lý đồng thời text, hình ảnh, âm thanh và video",
+    "image": "https://images.pexels.com/photos/8386434/pexels-photo-8386434.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "author": "692c4f6caacc38d10c2da997",
+    "category": "AI",
+    "tags": [
+      "AI",
+      "Multimodal",
+      "Vision-Language"
+    ],
+    "views": 480,
+    "isPublished": true,
+    "createdAt": "2025-11-30T14:06:36.684Z",
+    "updatedAt": "2025-12-17T00:14:27.355Z",
+    "__v": 0,
+    "detailedContent": "Multimodal AI: Kết hợp nhiều loại dữ liệu\n\n          Đây là một chủ đề quan trọng trong lĩnh vực Trí tuệ nhân tạo và Machine Learning. Hãy cùng tìm hiểu chi tiết về nó.\n\n          Tổng quan\n\n          AI có thể xử lý đồng thời text, hình ảnh, âm thanh và video\n\n          Tại sao chủ đề này quan trọng?\n\n          Trong bối cảnh công nghệ AI đang phát triển nhanh chóng, việc nắm bắt các xu hướng và kiến thức mới là vô cùng cần thiết. Chủ đề này giúp bạn:\n\n          \n            • Hiểu rõ hơn về công nghệ AI hiện đại\n\n            • Áp dụng kiến thức vào thực tế\n\n            • Nâng cao kỹ năng chuyên môn\n\n            • Mở rộng cơ hội nghề nghiệp\n\n          \n\n          Kiến thức cần có\n\n          Để hiểu sâu về chủ đề này, bạn nên có nền tảng về:\n\n          \n            • Toán học: Đại số tuyến tính, xác suất thống kê, giải tích\n\n            • Lập trình: Python, các thư viện ML/DL\n\n            • Machine Learning: Các thuật toán cơ bản\n\n            • Deep Learning: Neural Networks, backpropagation\n\n          \n\n          Tài nguyên học tập\n\n          \n            • Khóa học trực tuyến: Coursera, edX, Udacity\n\n            • Sách: \"Deep Learning\" by Goodfellow, \"Hands-On Machine Learning\"\n\n            • Paper: arXiv.org, Papers with Code\n\n            • Thực hành: Kaggle, GitHub projects\n\n          \n\n          Bước tiếp theo\n\n          Sau khi tìm hiểu về chủ đề này, bạn có thể:\n\n          \n            • Tham gia các khóa học chuyên sâu tại AI Center\n\n            • Thực hành với các dự án thực tế\n\n            • Tham gia cộng đồng AI để trao đổi\n\n            • Áp dụng vào công việc hoặc nghiên cứu\n\n          \n\n          \n            \"Học AI không chỉ là học công nghệ, mà là học cách tư duy và giải quyết vấn đề.\" - AI Center"
+  },
+  {
+    "_id": "692c4f6caacc38d10c2da9df",
+    "title": "AI trong Y tế: Cơ hội và Thách thức",
+    "content": "AI đang thay đổi ngành y tế với khả năng chẩn đoán bệnh chính xác hơn, phát hiện sớm ung thư, và cá nhân hóa điều trị.",
+    "summary": "Ứng dụng AI trong chẩn đoán và điều trị bệnh",
+    "image": "https://images.pexels.com/photos/8438922/pexels-photo-8438922.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "author": "692c4f6caacc38d10c2da997",
+    "category": "AI",
+    "tags": [
+      "AI",
+      "Y tế",
+      "Healthcare"
+    ],
+    "views": 410,
+    "isPublished": true,
+    "createdAt": "2025-11-30T14:06:36.686Z",
+    "updatedAt": "2025-12-17T00:14:27.372Z",
+    "__v": 0,
+    "detailedContent": "AI trong Y tế: Cơ hội và Thách thức\n\n          Đây là một chủ đề quan trọng trong lĩnh vực Trí tuệ nhân tạo và Machine Learning. Hãy cùng tìm hiểu chi tiết về nó.\n\n          Tổng quan\n\n          Ứng dụng AI trong chẩn đoán và điều trị bệnh\n\n          Tại sao chủ đề này quan trọng?\n\n          Trong bối cảnh công nghệ AI đang phát triển nhanh chóng, việc nắm bắt các xu hướng và kiến thức mới là vô cùng cần thiết. Chủ đề này giúp bạn:\n\n          \n            • Hiểu rõ hơn về công nghệ AI hiện đại\n\n            • Áp dụng kiến thức vào thực tế\n\n            • Nâng cao kỹ năng chuyên môn\n\n            • Mở rộng cơ hội nghề nghiệp\n\n          \n\n          Kiến thức cần có\n\n          Để hiểu sâu về chủ đề này, bạn nên có nền tảng về:\n\n          \n            • Toán học: Đại số tuyến tính, xác suất thống kê, giải tích\n\n            • Lập trình: Python, các thư viện ML/DL\n\n            • Machine Learning: Các thuật toán cơ bản\n\n            • Deep Learning: Neural Networks, backpropagation\n\n          \n\n          Tài nguyên học tập\n\n          \n            • Khóa học trực tuyến: Coursera, edX, Udacity\n\n            • Sách: \"Deep Learning\" by Goodfellow, \"Hands-On Machine Learning\"\n\n            • Paper: arXiv.org, Papers with Code\n\n            • Thực hành: Kaggle, GitHub projects\n\n          \n\n          Bước tiếp theo\n\n          Sau khi tìm hiểu về chủ đề này, bạn có thể:\n\n          \n            • Tham gia các khóa học chuyên sâu tại AI Center\n\n            • Thực hành với các dự án thực tế\n\n            • Tham gia cộng đồng AI để trao đổi\n\n            • Áp dụng vào công việc hoặc nghiên cứu\n\n          \n\n          \n            \"Học AI không chỉ là học công nghệ, mà là học cách tư duy và giải quyết vấn đề.\" - AI Center"
+  },
+  {
+    "_id": "692c4f6caacc38d10c2da9e1",
+    "title": "Gradient Descent và các biến thể",
+    "content": "Gradient Descent là nền tảng của hầu hết các thuật toán ML. Bài viết này giải thích chi tiết về GD, SGD, Mini-batch GD, Adam, RMSprop và khi nào nên sử dụng từng loại.",
+    "summary": "Hiểu sâu về thuật toán tối ưu cơ bản trong Machine Learning",
+    "image": "https://images.pexels.com/photos/8386422/pexels-photo-8386422.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "author": "692c4f6caacc38d10c2da997",
+    "category": "Machine Learning",
+    "tags": [
+      "Gradient Descent",
+      "Optimization",
+      "ML"
+    ],
+    "views": 420,
+    "isPublished": true,
+    "createdAt": "2025-11-30T14:06:36.687Z",
+    "updatedAt": "2025-12-17T00:14:27.387Z",
+    "__v": 0,
+    "detailedContent": "Gradient Descent và các biến thể\n\n          Đây là một chủ đề quan trọng trong lĩnh vực Trí tuệ nhân tạo và Machine Learning. Hãy cùng tìm hiểu chi tiết về nó.\n\n          Tổng quan\n\n          Hiểu sâu về thuật toán tối ưu cơ bản trong Machine Learning\n\n          Tại sao chủ đề này quan trọng?\n\n          Trong bối cảnh công nghệ AI đang phát triển nhanh chóng, việc nắm bắt các xu hướng và kiến thức mới là vô cùng cần thiết. Chủ đề này giúp bạn:\n\n          \n            • Hiểu rõ hơn về công nghệ AI hiện đại\n\n            • Áp dụng kiến thức vào thực tế\n\n            • Nâng cao kỹ năng chuyên môn\n\n            • Mở rộng cơ hội nghề nghiệp\n\n          \n\n          Kiến thức cần có\n\n          Để hiểu sâu về chủ đề này, bạn nên có nền tảng về:\n\n          \n            • Toán học: Đại số tuyến tính, xác suất thống kê, giải tích\n\n            • Lập trình: Python, các thư viện ML/DL\n\n            • Machine Learning: Các thuật toán cơ bản\n\n            • Deep Learning: Neural Networks, backpropagation\n\n          \n\n          Tài nguyên học tập\n\n          \n            • Khóa học trực tuyến: Coursera, edX, Udacity\n\n            • Sách: \"Deep Learning\" by Goodfellow, \"Hands-On Machine Learning\"\n\n            • Paper: arXiv.org, Papers with Code\n\n            • Thực hành: Kaggle, GitHub projects\n\n          \n\n          Bước tiếp theo\n\n          Sau khi tìm hiểu về chủ đề này, bạn có thể:\n\n          \n            • Tham gia các khóa học chuyên sâu tại AI Center\n\n            • Thực hành với các dự án thực tế\n\n            • Tham gia cộng đồng AI để trao đổi\n\n            • Áp dụng vào công việc hoặc nghiên cứu\n\n          \n\n          \n            \"Học AI không chỉ là học công nghệ, mà là học cách tư duy và giải quyết vấn đề.\" - AI Center"
+  },
+  {
+    "_id": "692c4f6caacc38d10c2da9e3",
+    "title": "Feature Engineering: Nghệ thuật tạo đặc trưng",
+    "content": "Feature Engineering là bước quan trọng trong ML pipeline. Bài viết hướng dẫn các kỹ thuật như scaling, encoding, feature selection, feature extraction, và cách xử lý missing data.",
+    "summary": "Kỹ thuật quan trọng để cải thiện hiệu suất mô hình ML",
+    "image": "https://images.pexels.com/photos/7988086/pexels-photo-7988086.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "author": "692c4f6caacc38d10c2da997",
+    "category": "Machine Learning",
+    "tags": [
+      "Feature Engineering",
+      "Data Preprocessing",
+      "ML"
+    ],
+    "views": 380,
+    "isPublished": true,
+    "createdAt": "2025-11-30T14:06:36.688Z",
+    "updatedAt": "2025-12-17T00:14:27.407Z",
+    "__v": 0,
+    "detailedContent": "Feature Engineering: Nghệ thuật tạo đặc trưng\n\n          Đây là một chủ đề quan trọng trong lĩnh vực Trí tuệ nhân tạo và Machine Learning. Hãy cùng tìm hiểu chi tiết về nó.\n\n          Tổng quan\n\n          Kỹ thuật quan trọng để cải thiện hiệu suất mô hình ML\n\n          Tại sao chủ đề này quan trọng?\n\n          Trong bối cảnh công nghệ AI đang phát triển nhanh chóng, việc nắm bắt các xu hướng và kiến thức mới là vô cùng cần thiết. Chủ đề này giúp bạn:\n\n          \n            • Hiểu rõ hơn về công nghệ AI hiện đại\n\n            • Áp dụng kiến thức vào thực tế\n\n            • Nâng cao kỹ năng chuyên môn\n\n            • Mở rộng cơ hội nghề nghiệp\n\n          \n\n          Kiến thức cần có\n\n          Để hiểu sâu về chủ đề này, bạn nên có nền tảng về:\n\n          \n            • Toán học: Đại số tuyến tính, xác suất thống kê, giải tích\n\n            • Lập trình: Python, các thư viện ML/DL\n\n            • Machine Learning: Các thuật toán cơ bản\n\n            • Deep Learning: Neural Networks, backpropagation\n\n          \n\n          Tài nguyên học tập\n\n          \n            • Khóa học trực tuyến: Coursera, edX, Udacity\n\n            • Sách: \"Deep Learning\" by Goodfellow, \"Hands-On Machine Learning\"\n\n            • Paper: arXiv.org, Papers with Code\n\n            • Thực hành: Kaggle, GitHub projects\n\n          \n\n          Bước tiếp theo\n\n          Sau khi tìm hiểu về chủ đề này, bạn có thể:\n\n          \n            • Tham gia các khóa học chuyên sâu tại AI Center\n\n            • Thực hành với các dự án thực tế\n\n            • Tham gia cộng đồng AI để trao đổi\n\n            • Áp dụng vào công việc hoặc nghiên cứu\n\n          \n\n          \n            \"Học AI không chỉ là học công nghệ, mà là học cách tư duy và giải quyết vấn đề.\" - AI Center"
+  },
+  {
+    "_id": "692c4f6caacc38d10c2da9e5",
+    "title": "Ensemble Learning: Sức mạnh của tập thể",
+    "content": "Ensemble Learning như Random Forest, XGBoost, LightGBM thường cho kết quả tốt hơn single model. Bài viết giải thích về bagging, boosting, stacking và cách áp dụng chúng.",
+    "summary": "Kết hợp nhiều mô hình để đạt kết quả tốt hơn",
+    "image": "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "author": "692c4f6caacc38d10c2da997",
+    "category": "Machine Learning",
+    "tags": [
+      "Ensemble",
+      "Random Forest",
+      "XGBoost"
+    ],
+    "views": 510,
+    "isPublished": true,
+    "createdAt": "2025-11-30T14:06:36.690Z",
+    "updatedAt": "2025-12-17T00:14:27.418Z",
+    "__v": 0,
+    "detailedContent": "Ensemble Learning: Sức mạnh của tập thể\n\n          Đây là một chủ đề quan trọng trong lĩnh vực Trí tuệ nhân tạo và Machine Learning. Hãy cùng tìm hiểu chi tiết về nó.\n\n          Tổng quan\n\n          Kết hợp nhiều mô hình để đạt kết quả tốt hơn\n\n          Tại sao chủ đề này quan trọng?\n\n          Trong bối cảnh công nghệ AI đang phát triển nhanh chóng, việc nắm bắt các xu hướng và kiến thức mới là vô cùng cần thiết. Chủ đề này giúp bạn:\n\n          \n            • Hiểu rõ hơn về công nghệ AI hiện đại\n\n            • Áp dụng kiến thức vào thực tế\n\n            • Nâng cao kỹ năng chuyên môn\n\n            • Mở rộng cơ hội nghề nghiệp\n\n          \n\n          Kiến thức cần có\n\n          Để hiểu sâu về chủ đề này, bạn nên có nền tảng về:\n\n          \n            • Toán học: Đại số tuyến tính, xác suất thống kê, giải tích\n\n            • Lập trình: Python, các thư viện ML/DL\n\n            • Machine Learning: Các thuật toán cơ bản\n\n            • Deep Learning: Neural Networks, backpropagation\n\n          \n\n          Tài nguyên học tập\n\n          \n            • Khóa học trực tuyến: Coursera, edX, Udacity\n\n            • Sách: \"Deep Learning\" by Goodfellow, \"Hands-On Machine Learning\"\n\n            • Paper: arXiv.org, Papers with Code\n\n            • Thực hành: Kaggle, GitHub projects\n\n          \n\n          Bước tiếp theo\n\n          Sau khi tìm hiểu về chủ đề này, bạn có thể:\n\n          \n            • Tham gia các khóa học chuyên sâu tại AI Center\n\n            • Thực hành với các dự án thực tế\n\n            • Tham gia cộng đồng AI để trao đổi\n\n            • Áp dụng vào công việc hoặc nghiên cứu\n\n          \n\n          \n            \"Học AI không chỉ là học công nghệ, mà là học cách tư duy và giải quyết vấn đề.\" - AI Center"
+  },
+  {
+    "_id": "692c4f6caacc38d10c2da9e7",
+    "title": "Overfitting và Underfitting: Cân bằng là chìa khóa",
+    "content": "Overfitting và underfitting là hai thách thức lớn trong ML. Bài viết này giải thích nguyên nhân, cách phát hiện, và các kỹ thuật như regularization, cross-validation để giải quyết.",
+    "summary": "Hiểu và khắc phục hai vấn đề phổ biến trong ML",
+    "image": "https://images.pexels.com/photos/7988675/pexels-photo-7988675.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "author": "692c4f6caacc38d10c2da997",
+    "category": "Machine Learning",
+    "tags": [
+      "Overfitting",
+      "Regularization",
+      "ML"
+    ],
+    "views": 450,
+    "isPublished": true,
+    "createdAt": "2025-11-30T14:06:36.691Z",
+    "updatedAt": "2025-12-17T00:14:27.436Z",
+    "__v": 0,
+    "detailedContent": "Overfitting và Underfitting: Cân bằng là chìa khóa\n\n          Đây là một chủ đề quan trọng trong lĩnh vực Trí tuệ nhân tạo và Machine Learning. Hãy cùng tìm hiểu chi tiết về nó.\n\n          Tổng quan\n\n          Hiểu và khắc phục hai vấn đề phổ biến trong ML\n\n          Tại sao chủ đề này quan trọng?\n\n          Trong bối cảnh công nghệ AI đang phát triển nhanh chóng, việc nắm bắt các xu hướng và kiến thức mới là vô cùng cần thiết. Chủ đề này giúp bạn:\n\n          \n            • Hiểu rõ hơn về công nghệ AI hiện đại\n\n            • Áp dụng kiến thức vào thực tế\n\n            • Nâng cao kỹ năng chuyên môn\n\n            • Mở rộng cơ hội nghề nghiệp\n\n          \n\n          Kiến thức cần có\n\n          Để hiểu sâu về chủ đề này, bạn nên có nền tảng về:\n\n          \n            • Toán học: Đại số tuyến tính, xác suất thống kê, giải tích\n\n            • Lập trình: Python, các thư viện ML/DL\n\n            • Machine Learning: Các thuật toán cơ bản\n\n            • Deep Learning: Neural Networks, backpropagation\n\n          \n\n          Tài nguyên học tập\n\n          \n            • Khóa học trực tuyến: Coursera, edX, Udacity\n\n            • Sách: \"Deep Learning\" by Goodfellow, \"Hands-On Machine Learning\"\n\n            • Paper: arXiv.org, Papers with Code\n\n            • Thực hành: Kaggle, GitHub projects\n\n          \n\n          Bước tiếp theo\n\n          Sau khi tìm hiểu về chủ đề này, bạn có thể:\n\n          \n            • Tham gia các khóa học chuyên sâu tại AI Center\n\n            • Thực hành với các dự án thực tế\n\n            • Tham gia cộng đồng AI để trao đổi\n\n            • Áp dụng vào công việc hoặc nghiên cứu\n\n          \n\n          \n            \"Học AI không chỉ là học công nghệ, mà là học cách tư duy và giải quyết vấn đề.\" - AI Center"
+  },
+  {
+    "_id": "692c4f6caacc38d10c2da9e9",
+    "title": "Time Series Forecasting với ML",
+    "content": "Time series forecasting có ứng dụng rộng rãi trong tài chính, bán lẻ, và IoT. Bài viết hướng dẫn các kỹ thuật như ARIMA, Prophet, LSTM, và cách xử lý seasonality, trend.",
+    "summary": "Dự đoán chuỗi thời gian sử dụng Machine Learning",
+    "image": "https://images.pexels.com/photos/6801874/pexels-photo-6801874.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "author": "692c4f6caacc38d10c2da997",
+    "category": "Machine Learning",
+    "tags": [
+      "Time Series",
+      "Forecasting",
+      "LSTM"
+    ],
+    "views": 490,
+    "isPublished": true,
+    "createdAt": "2025-11-30T14:06:36.692Z",
+    "updatedAt": "2025-12-17T00:14:27.440Z",
+    "__v": 0,
+    "detailedContent": "Machine Learning - Nền tảng của AI hiện đại\n\n    Machine Learning (ML) là một nhánh của trí tuệ nhân tạo cho phép máy tính học từ dữ liệu mà không cần được lập trình cụ thể. Đây là công nghệ đằng sau nhiều ứng dụng mà chúng ta sử dụng hàng ngày.\n\n    \n    Các loại Machine Learning\n\n    \n      • Supervised Learning (Học có giám sát): Học từ dữ liệu đã được gán nhãn. Ví dụ: phân loại email spam, dự đoán giá nhà.\n\n      • Unsupervised Learning (Học không giám sát): Tìm kiếm pattern trong dữ liệu chưa gán nhãn. Ví dụ: phân cụm khách hàng, giảm chiều dữ liệu.\n\n      • Reinforcement Learning (Học tăng cường): Học thông qua thử và sai. Ví dụ: game AI, robot tự động.\n\n    \n\n    Quy trình xây dựng mô hình ML\n\n    \n      • Thu thập dữ liệu: Lấy dữ liệu từ nhiều nguồn khác nhau\n\n      • Tiền xử lý: Làm sạch, chuẩn hóa dữ liệu\n\n      • Feature Engineering: Tạo các đặc trưng hữu ích\n\n      • Chọn mô hình: Linear Regression, Decision Tree, Neural Network...\n\n      • Training: Huấn luyện mô hình với dữ liệu\n\n      • Evaluation: Đánh giá hiệu suất\n\n      • Deployment: Triển khai vào production\n\n    \n\n    \n      \"Machine Learning là khả năng học mà không được lập trình rõ ràng.\" - Arthur Samuel, 1959\n    \n\n    Công cụ phổ biến\n\n    Các thư viện Python được sử dụng rộng rãi:\n\n    \n      • Scikit-learn: Thư viện ML cổ điển, dễ sử dụng\n\n      • Pandas: Xử lý và phân tích dữ liệu\n\n      • NumPy: Tính toán số học\n\n      • Matplotlib/Seaborn: Trực quan hóa dữ liệu"
+  },
+  {
+    "_id": "692c4f6caacc38d10c2da9eb",
+    "title": "CNN Architecture: Từ LeNet đến EfficientNet",
+    "content": "Từ LeNet (1998) đến EfficientNet (2019), CNN đã có nhiều bước tiến vượt bậc. Bài viết này review các kiến trúc quan trọng như AlexNet, VGG, ResNet, Inception, MobileNet.",
+    "summary": "Lịch sử phát triển của kiến trúc CNN trong Deep Learning",
+    "image": "https://images.pexels.com/photos/8386434/pexels-photo-8386434.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "author": "692c4f6caacc38d10c2da997",
+    "category": "Deep Learning",
+    "tags": [
+      "CNN",
+      "Architecture",
+      "Computer Vision"
+    ],
+    "views": 580,
+    "isPublished": true,
+    "createdAt": "2025-11-30T14:06:36.694Z",
+    "updatedAt": "2025-12-17T00:14:27.451Z",
+    "__v": 0,
+    "detailedContent": "Computer Vision - Mắt của AI\n\n          Computer Vision cho phép máy tính \"nhìn\" và hiểu thế giới thị giác. Từ nhận dạng khuôn mặt đến xe tự lái, CV đang thay đổi cách chúng ta tương tác với công nghệ.\n\n          Kiến trúc CNN (Convolutional Neural Networks)\n\n          CNN là kiến trúc chuyên biệt cho xử lý ảnh, sử dụng các lớp convolution để trích xuất đặc trưng.\n\n          Các lớp trong CNN\n\n          \n            • Convolutional Layer: Trích xuất đặc trưng bằng filters\n\n            • Pooling Layer: Giảm kích thước, giữ thông tin quan trọng\n\n            • Fully Connected Layer: Phân loại dựa trên đặc trưng\n\n          \n\n          Các kiến trúc CNN nổi tiếng\n\n          \n            \n              Mô hình\n              Năm\n              Đặc điểm\n            \n            \n              LeNet\n              1998\n              CNN đầu tiên, nhận dạng chữ số\n            \n            \n              AlexNet\n              2012\n              Đột phá ImageNet, sử dụng ReLU\n            \n            \n              VGG\n              2014\n              Kiến trúc đơn giản, hiệu quả\n            \n            \n              ResNet\n              2015\n              Skip connections, 152 layers\n            \n            \n              EfficientNet\n              2019\n              Tối ưu độ chính xác và tốc độ\n            \n          \n\n          Ứng dụng Computer Vision\n\n          1. Nhận dạng và Phân loại\n\n          Xác định đối tượng trong ảnh: nhận dạng khuôn mặt, phân loại sản phẩm, kiểm tra chất lượng.\n\n          2. Object Detection\n\n          Phát hiện và định vị nhiều đối tượng: YOLO, Faster R-CNN, SSD.\n\n          3. Segmentation\n\n          Phân đoạn từng pixel: xe tự lái, chẩn đoán y tế, chỉnh sửa ảnh.\n\n          4. Pose Estimation\n\n          Ước lượng tư thế con người: thể thao, AR/VR, giám sát sức khỏe.\n\n          \n            \"Computer Vision sẽ thay đổi mọi ngành công nghiệp trong thập kỷ tới.\" - Fei-Fei Li"
+  },
+  {
+    "_id": "692c4f6caacc38d10c2da9ed",
+    "title": "Attention Mechanism: Trái tim của Transformer",
+    "content": "Attention mechanism là đột phá lớn trong DL, đặc biệt là self-attention trong Transformer. Bài viết giải thích chi tiết về Query, Key, Value, multi-head attention.",
+    "summary": "Cơ chế attention đã thay đổi Deep Learning như thế nào",
+    "image": "https://images.pexels.com/photos/8386422/pexels-photo-8386422.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "author": "692c4f6caacc38d10c2da997",
+    "category": "Deep Learning",
+    "tags": [
+      "Attention",
+      "Transformer",
+      "Deep Learning"
+    ],
+    "views": 640,
+    "isPublished": true,
+    "createdAt": "2025-11-30T14:06:36.696Z",
+    "updatedAt": "2025-12-17T00:14:27.469Z",
+    "__v": 0,
+    "detailedContent": "Xử lý Ngôn ngữ Tự nhiên (NLP)\n\n          Natural Language Processing là lĩnh vực giúp máy tính hiểu và xử lý ngôn ngữ con người. ChatGPT và các mô hình ngôn ngữ lớn đã tạo ra cuộc cách mạng trong NLP.\n\n          \n          Các bài toán NLP phổ biến\n\n          \n            • Text Classification: Phân loại văn bản (spam detection, sentiment analysis)\n\n            • Named Entity Recognition: Nhận dạng thực thể (tên người, địa điểm, tổ chức)\n\n            • Machine Translation: Dịch máy (Google Translate)\n\n            • Question Answering: Trả lời câu hỏi tự động\n\n            • Text Generation: Tạo văn bản (ChatGPT, GPT-4)\n\n          \n\n          Transformer - Kiến trúc đột phá\n\n          Transformer sử dụng cơ chế attention để xử lý toàn bộ chuỗi đầu vào cùng lúc, thay vì tuần tự như RNN.\n\n          \n          Các mô hình Transformer nổi tiếng\n\n          \n            • BERT: Bidirectional Encoder - Hiểu ngữ cảnh hai chiều\n\n            • GPT: Generative Pre-trained Transformer - Tạo văn bản\n\n            • T5: Text-to-Text Transfer Transformer\n\n            • BART: Kết hợp encoder-decoder\n\n          \n\n          \n            \"Attention is all you need\" - Tiêu đề paper giới thiệu Transformer, 2017\n          \n\n          Ứng dụng thực tế\n\n          \n            • Chatbot thông minh và trợ lý ảo\n\n            • Tóm tắt văn bản tự động\n\n            • Phân tích cảm xúc khách hàng\n\n            • Tạo nội dung marketing\n\n            • Hỗ trợ viết code (GitHub Copilot)"
+  },
+  {
+    "_id": "692c4f6caacc38d10c2da9ef",
+    "title": "Transfer Learning: Học từ mô hình có sẵn",
+    "content": "Transfer Learning cho phép sử dụng mô hình đã được train trên dataset lớn cho bài toán mới. Bài viết hướng dẫn cách fine-tune BERT, GPT, ResNet.",
+    "summary": "Tận dụng pre-trained models để tiết kiệm thời gian và tài nguyên",
+    "image": "https://images.pexels.com/photos/8438918/pexels-photo-8438918.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "author": "692c4f6caacc38d10c2da997",
+    "category": "Deep Learning",
+    "tags": [
+      "Transfer Learning",
+      "Fine-tuning",
+      "Pre-trained"
+    ],
+    "views": 520,
+    "isPublished": true,
+    "createdAt": "2025-11-30T14:06:36.698Z",
+    "updatedAt": "2025-12-17T00:14:27.474Z",
+    "__v": 0,
+    "detailedContent": "Transfer Learning: Học từ mô hình có sẵn\n\n          Đây là một chủ đề quan trọng trong lĩnh vực Trí tuệ nhân tạo và Machine Learning. Hãy cùng tìm hiểu chi tiết về nó.\n\n          Tổng quan\n\n          Tận dụng pre-trained models để tiết kiệm thời gian và tài nguyên\n\n          Tại sao chủ đề này quan trọng?\n\n          Trong bối cảnh công nghệ AI đang phát triển nhanh chóng, việc nắm bắt các xu hướng và kiến thức mới là vô cùng cần thiết. Chủ đề này giúp bạn:\n\n          \n            • Hiểu rõ hơn về công nghệ AI hiện đại\n\n            • Áp dụng kiến thức vào thực tế\n\n            • Nâng cao kỹ năng chuyên môn\n\n            • Mở rộng cơ hội nghề nghiệp\n\n          \n\n          Kiến thức cần có\n\n          Để hiểu sâu về chủ đề này, bạn nên có nền tảng về:\n\n          \n            • Toán học: Đại số tuyến tính, xác suất thống kê, giải tích\n\n            • Lập trình: Python, các thư viện ML/DL\n\n            • Machine Learning: Các thuật toán cơ bản\n\n            • Deep Learning: Neural Networks, backpropagation\n\n          \n\n          Tài nguyên học tập\n\n          \n            • Khóa học trực tuyến: Coursera, edX, Udacity\n\n            • Sách: \"Deep Learning\" by Goodfellow, \"Hands-On Machine Learning\"\n\n            • Paper: arXiv.org, Papers with Code\n\n            • Thực hành: Kaggle, GitHub projects\n\n          \n\n          Bước tiếp theo\n\n          Sau khi tìm hiểu về chủ đề này, bạn có thể:\n\n          \n            • Tham gia các khóa học chuyên sâu tại AI Center\n\n            • Thực hành với các dự án thực tế\n\n            • Tham gia cộng đồng AI để trao đổi\n\n            • Áp dụng vào công việc hoặc nghiên cứu\n\n          \n\n          \n            \"Học AI không chỉ là học công nghệ, mà là học cách tư duy và giải quyết vấn đề.\" - AI Center"
+  },
+  {
+    "_id": "692c4f6caacc38d10c2da9f1",
+    "title": "GANs: Tạo dữ liệu giả từ không khí",
+    "content": "GANs đã tạo ra cuộc cách mạng trong việc sinh dữ liệu. Bài viết giới thiệu về kiến trúc GAN, các biến thể như StyleGAN, CycleGAN, và ứng dụng trong tạo ảnh, video.",
+    "summary": "Generative Adversarial Networks và ứng dụng sáng tạo",
+    "image": "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "author": "692c4f6caacc38d10c2da997",
+    "category": "Deep Learning",
+    "tags": [
+      "GAN",
+      "Generative AI",
+      "Deep Learning"
+    ],
+    "views": 670,
+    "isPublished": true,
+    "createdAt": "2025-11-30T14:06:36.700Z",
+    "updatedAt": "2025-12-17T00:14:27.491Z",
+    "__v": 0,
+    "detailedContent": "GANs - Generative Adversarial Networks\n\n          GANs là một trong những ý tưởng thú vị nhất trong Deep Learning. Chúng có thể tạo ra dữ liệu mới giống như dữ liệu thật: ảnh, âm thanh, video.\n\n          Cách hoạt động của GANs\n\n          GANs gồm hai mạng neural cạnh tranh nhau:\n\n          \n          Generator (Bộ tạo)\n\n          Nhiệm vụ: Tạo ra dữ liệu giả từ noise ngẫu nhiên, cố gắng đánh lừa Discriminator.\n\n          Discriminator (Bộ phân biệt)\n\n          Nhiệm vụ: Phân biệt dữ liệu thật và giả, cố gắng không bị Generator đánh lừa.\n\n          \n            \"GANs là ý tưởng thú vị nhất trong Machine Learning trong 10 năm qua.\" - Yann LeCun\n          \n\n          Các biến thể của GANs\n\n          \n            • DCGAN: Deep Convolutional GAN - Sử dụng CNN\n\n            • StyleGAN: Tạo ảnh chân dung siêu thực\n\n            • CycleGAN: Chuyển đổi phong cách ảnh\n\n            • Pix2Pix: Chuyển đổi ảnh có điều kiện\n\n            • BigGAN: Tạo ảnh độ phân giải cao\n\n          \n\n          Ứng dụng của GANs\n\n          \n            • Tạo ảnh nghệ thuật: Stable Diffusion, Midjourney\n\n            • Chỉnh sửa ảnh: Thay đổi tuổi, giới tính, biểu cảm\n\n            • Tăng cường dữ liệu: Tạo thêm dữ liệu training\n\n            • Super Resolution: Tăng độ phân giải ảnh\n\n            • Deepfake: Tạo video giả (cần sử dụng có đạo đức)\n\n          \n\n          Thách thức\n\n          GANs khó train và có thể gặp các vấn đề:\n\n          \n            • Mode collapse: Generator tạo ra ảnh giống nhau\n\n            • Training instability: Khó cân bằng G và D\n\n            • Vanishing gradients: Gradient biến mất"
+  },
+  {
+    "_id": "692c4f6caacc38d10c2da9f3",
+    "title": "Batch Normalization và Layer Normalization",
+    "content": "Normalization là kỹ thuật quan trọng trong DL. Bài viết so sánh Batch Norm, Layer Norm, Instance Norm, Group Norm và giải thích khi nào nên sử dụng từng loại.",
+    "summary": "Kỹ thuật normalization giúp training nhanh và ổn định hơn",
+    "image": "https://images.pexels.com/photos/7988086/pexels-photo-7988086.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "author": "692c4f6caacc38d10c2da997",
+    "category": "Deep Learning",
+    "tags": [
+      "Normalization",
+      "Batch Norm",
+      "Deep Learning"
+    ],
+    "views": 410,
+    "isPublished": true,
+    "createdAt": "2025-11-30T14:06:36.702Z",
+    "updatedAt": "2025-12-17T00:14:27.504Z",
+    "__v": 0,
+    "detailedContent": "Batch Normalization và Layer Normalization\n\n          Đây là một chủ đề quan trọng trong lĩnh vực Trí tuệ nhân tạo và Machine Learning. Hãy cùng tìm hiểu chi tiết về nó.\n\n          Tổng quan\n\n          Kỹ thuật normalization giúp training nhanh và ổn định hơn\n\n          Tại sao chủ đề này quan trọng?\n\n          Trong bối cảnh công nghệ AI đang phát triển nhanh chóng, việc nắm bắt các xu hướng và kiến thức mới là vô cùng cần thiết. Chủ đề này giúp bạn:\n\n          \n            • Hiểu rõ hơn về công nghệ AI hiện đại\n\n            • Áp dụng kiến thức vào thực tế\n\n            • Nâng cao kỹ năng chuyên môn\n\n            • Mở rộng cơ hội nghề nghiệp\n\n          \n\n          Kiến thức cần có\n\n          Để hiểu sâu về chủ đề này, bạn nên có nền tảng về:\n\n          \n            • Toán học: Đại số tuyến tính, xác suất thống kê, giải tích\n\n            • Lập trình: Python, các thư viện ML/DL\n\n            • Machine Learning: Các thuật toán cơ bản\n\n            • Deep Learning: Neural Networks, backpropagation\n\n          \n\n          Tài nguyên học tập\n\n          \n            • Khóa học trực tuyến: Coursera, edX, Udacity\n\n            • Sách: \"Deep Learning\" by Goodfellow, \"Hands-On Machine Learning\"\n\n            • Paper: arXiv.org, Papers with Code\n\n            • Thực hành: Kaggle, GitHub projects\n\n          \n\n          Bước tiếp theo\n\n          Sau khi tìm hiểu về chủ đề này, bạn có thể:\n\n          \n            • Tham gia các khóa học chuyên sâu tại AI Center\n\n            • Thực hành với các dự án thực tế\n\n            • Tham gia cộng đồng AI để trao đổi\n\n            • Áp dụng vào công việc hoặc nghiên cứu\n\n          \n\n          \n            \"Học AI không chỉ là học công nghệ, mà là học cách tư duy và giải quyết vấn đề.\" - AI Center"
+  },
+  {
+    "_id": "692c4f6caacc38d10c2da9f5",
+    "title": "ChatGPT và tương lai của NLP",
+    "content": "ChatGPT đã tạo ra một cuộc cách mạng trong lĩnh vực NLP. Bài viết này phân tích kiến trúc của ChatGPT, cách nó hoạt động, và những ứng dụng tiềm năng trong tương lai.",
+    "summary": "Phân tích về ChatGPT và tác động của nó đến lĩnh vực xử lý ngôn ngữ tự nhiên",
+    "image": "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "author": "692c4f6caacc38d10c2da997",
+    "category": "Research",
+    "tags": [
+      "ChatGPT",
+      "NLP",
+      "AI"
+    ],
+    "views": 580,
+    "isPublished": true,
+    "createdAt": "2025-11-30T14:06:36.703Z",
+    "updatedAt": "2025-12-17T00:14:27.547Z",
+    "__v": 0,
+    "detailedContent": "Xử lý Ngôn ngữ Tự nhiên (NLP)\n\n          Natural Language Processing là lĩnh vực giúp máy tính hiểu và xử lý ngôn ngữ con người. ChatGPT và các mô hình ngôn ngữ lớn đã tạo ra cuộc cách mạng trong NLP.\n\n          \n          Các bài toán NLP phổ biến\n\n          \n            • Text Classification: Phân loại văn bản (spam detection, sentiment analysis)\n\n            • Named Entity Recognition: Nhận dạng thực thể (tên người, địa điểm, tổ chức)\n\n            • Machine Translation: Dịch máy (Google Translate)\n\n            • Question Answering: Trả lời câu hỏi tự động\n\n            • Text Generation: Tạo văn bản (ChatGPT, GPT-4)\n\n          \n\n          Transformer - Kiến trúc đột phá\n\n          Transformer sử dụng cơ chế attention để xử lý toàn bộ chuỗi đầu vào cùng lúc, thay vì tuần tự như RNN.\n\n          \n          Các mô hình Transformer nổi tiếng\n\n          \n            • BERT: Bidirectional Encoder - Hiểu ngữ cảnh hai chiều\n\n            • GPT: Generative Pre-trained Transformer - Tạo văn bản\n\n            • T5: Text-to-Text Transfer Transformer\n\n            • BART: Kết hợp encoder-decoder\n\n          \n\n          \n            \"Attention is all you need\" - Tiêu đề paper giới thiệu Transformer, 2017\n          \n\n          Ứng dụng thực tế\n\n          \n            • Chatbot thông minh và trợ lý ảo\n\n            • Tóm tắt văn bản tự động\n\n            • Phân tích cảm xúc khách hàng\n\n            • Tạo nội dung marketing\n\n            • Hỗ trợ viết code (GitHub Copilot)"
+  },
+  {
+    "_id": "692c4f6caacc38d10c2da9f7",
+    "title": "Transformer Architecture: Cách mạng trong NLP",
+    "content": "Transformer đã thay đổi hoàn toàn lĩnh vực NLP. Bài viết này giải thích chi tiết về kiến trúc Transformer, attention mechanism, và cách nó được sử dụng trong BERT, GPT.",
+    "summary": "Tìm hiểu về kiến trúc Transformer và tại sao nó quan trọng",
+    "image": "https://images.pexels.com/photos/8386422/pexels-photo-8386422.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "author": "692c4f6caacc38d10c2da997",
+    "category": "Research",
+    "tags": [
+      "Transformer",
+      "NLP",
+      "BERT",
+      "GPT"
+    ],
+    "views": 560,
+    "isPublished": true,
+    "createdAt": "2025-11-30T14:06:36.703Z",
+    "updatedAt": "2025-12-17T00:14:27.556Z",
+    "__v": 0,
+    "detailedContent": "Xử lý Ngôn ngữ Tự nhiên (NLP)\n\n          Natural Language Processing là lĩnh vực giúp máy tính hiểu và xử lý ngôn ngữ con người. ChatGPT và các mô hình ngôn ngữ lớn đã tạo ra cuộc cách mạng trong NLP.\n\n          \n          Các bài toán NLP phổ biến\n\n          \n            • Text Classification: Phân loại văn bản (spam detection, sentiment analysis)\n\n            • Named Entity Recognition: Nhận dạng thực thể (tên người, địa điểm, tổ chức)\n\n            • Machine Translation: Dịch máy (Google Translate)\n\n            • Question Answering: Trả lời câu hỏi tự động\n\n            • Text Generation: Tạo văn bản (ChatGPT, GPT-4)\n\n          \n\n          Transformer - Kiến trúc đột phá\n\n          Transformer sử dụng cơ chế attention để xử lý toàn bộ chuỗi đầu vào cùng lúc, thay vì tuần tự như RNN.\n\n          \n          Các mô hình Transformer nổi tiếng\n\n          \n            • BERT: Bidirectional Encoder - Hiểu ngữ cảnh hai chiều\n\n            • GPT: Generative Pre-trained Transformer - Tạo văn bản\n\n            • T5: Text-to-Text Transfer Transformer\n\n            • BART: Kết hợp encoder-decoder\n\n          \n\n          \n            \"Attention is all you need\" - Tiêu đề paper giới thiệu Transformer, 2017\n          \n\n          Ứng dụng thực tế\n\n          \n            • Chatbot thông minh và trợ lý ảo\n\n            • Tóm tắt văn bản tự động\n\n            • Phân tích cảm xúc khách hàng\n\n            • Tạo nội dung marketing\n\n            • Hỗ trợ viết code (GitHub Copilot)"
+  },
+  {
+    "_id": "692c4f6caacc38d10c2da9f9",
+    "title": "Computer Vision: Từ lý thuyết đến thực hành",
+    "content": "Computer Vision là một trong những lĩnh vực hot nhất của AI. Bài viết này giới thiệu các khái niệm cơ bản về CV, từ xử lý ảnh, nhận diện đối tượng, đến các ứng dụng.",
+    "summary": "Khám phá thế giới Computer Vision và các ứng dụng trong đời sống",
+    "image": "https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "author": "692c4f6caacc38d10c2da997",
+    "category": "Research",
+    "tags": [
+      "Computer Vision",
+      "AI",
+      "Image Processing"
+    ],
+    "views": 380,
+    "isPublished": true,
+    "createdAt": "2025-11-30T14:06:36.705Z",
+    "updatedAt": "2025-12-17T00:14:27.587Z",
+    "__v": 0,
+    "detailedContent": "Computer Vision - Mắt của AI\n\n          Computer Vision cho phép máy tính \"nhìn\" và hiểu thế giới thị giác. Từ nhận dạng khuôn mặt đến xe tự lái, CV đang thay đổi cách chúng ta tương tác với công nghệ.\n\n          Kiến trúc CNN (Convolutional Neural Networks)\n\n          CNN là kiến trúc chuyên biệt cho xử lý ảnh, sử dụng các lớp convolution để trích xuất đặc trưng.\n\n          Các lớp trong CNN\n\n          \n            • Convolutional Layer: Trích xuất đặc trưng bằng filters\n\n            • Pooling Layer: Giảm kích thước, giữ thông tin quan trọng\n\n            • Fully Connected Layer: Phân loại dựa trên đặc trưng\n\n          \n\n          Các kiến trúc CNN nổi tiếng\n\n          \n            \n              Mô hình\n              Năm\n              Đặc điểm\n            \n            \n              LeNet\n              1998\n              CNN đầu tiên, nhận dạng chữ số\n            \n            \n              AlexNet\n              2012\n              Đột phá ImageNet, sử dụng ReLU\n            \n            \n              VGG\n              2014\n              Kiến trúc đơn giản, hiệu quả\n            \n            \n              ResNet\n              2015\n              Skip connections, 152 layers\n            \n            \n              EfficientNet\n              2019\n              Tối ưu độ chính xác và tốc độ\n            \n          \n\n          Ứng dụng Computer Vision\n\n          1. Nhận dạng và Phân loại\n\n          Xác định đối tượng trong ảnh: nhận dạng khuôn mặt, phân loại sản phẩm, kiểm tra chất lượng.\n\n          2. Object Detection\n\n          Phát hiện và định vị nhiều đối tượng: YOLO, Faster R-CNN, SSD.\n\n          3. Segmentation\n\n          Phân đoạn từng pixel: xe tự lái, chẩn đoán y tế, chỉnh sửa ảnh.\n\n          4. Pose Estimation\n\n          Ước lượng tư thế con người: thể thao, AR/VR, giám sát sức khỏe.\n\n          \n            \"Computer Vision sẽ thay đổi mọi ngành công nghiệp trong thập kỷ tới.\" - Fei-Fei Li"
+  },
+  {
+    "_id": "692c4f6caacc38d10c2da9fb",
+    "title": "AI Explainability: Giải thích quyết định của AI",
+    "content": "Explainable AI (XAI) là xu hướng quan trọng giúp con người hiểu được cách AI đưa ra quyết định. Bài viết giới thiệu các kỹ thuật XAI như LIME, SHAP.",
+    "summary": "Tại sao chúng ta cần hiểu cách AI đưa ra quyết định",
+    "image": "https://images.pexels.com/photos/8438922/pexels-photo-8438922.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "author": "692c4f6caacc38d10c2da997",
+    "category": "Research",
+    "tags": [
+      "AI",
+      "XAI",
+      "Explainability"
+    ],
+    "views": 342,
+    "isPublished": true,
+    "createdAt": "2025-11-30T14:06:36.706Z",
+    "updatedAt": "2025-12-17T00:14:27.636Z",
+    "__v": 0,
+    "detailedContent": "AI Explainability: Giải thích quyết định của AI\n\n          Đây là một chủ đề quan trọng trong lĩnh vực Trí tuệ nhân tạo và Machine Learning. Hãy cùng tìm hiểu chi tiết về nó.\n\n          Tổng quan\n\n          Tại sao chúng ta cần hiểu cách AI đưa ra quyết định\n\n          Tại sao chủ đề này quan trọng?\n\n          Trong bối cảnh công nghệ AI đang phát triển nhanh chóng, việc nắm bắt các xu hướng và kiến thức mới là vô cùng cần thiết. Chủ đề này giúp bạn:\n\n          \n            • Hiểu rõ hơn về công nghệ AI hiện đại\n\n            • Áp dụng kiến thức vào thực tế\n\n            • Nâng cao kỹ năng chuyên môn\n\n            • Mở rộng cơ hội nghề nghiệp\n\n          \n\n          Kiến thức cần có\n\n          Để hiểu sâu về chủ đề này, bạn nên có nền tảng về:\n\n          \n            • Toán học: Đại số tuyến tính, xác suất thống kê, giải tích\n\n            • Lập trình: Python, các thư viện ML/DL\n\n            • Machine Learning: Các thuật toán cơ bản\n\n            • Deep Learning: Neural Networks, backpropagation\n\n          \n\n          Tài nguyên học tập\n\n          \n            • Khóa học trực tuyến: Coursera, edX, Udacity\n\n            • Sách: \"Deep Learning\" by Goodfellow, \"Hands-On Machine Learning\"\n\n            • Paper: arXiv.org, Papers with Code\n\n            • Thực hành: Kaggle, GitHub projects\n\n          \n\n          Bước tiếp theo\n\n          Sau khi tìm hiểu về chủ đề này, bạn có thể:\n\n          \n            • Tham gia các khóa học chuyên sâu tại AI Center\n\n            • Thực hành với các dự án thực tế\n\n            • Tham gia cộng đồng AI để trao đổi\n\n            • Áp dụng vào công việc hoặc nghiên cứu\n\n          \n\n          \n            \"Học AI không chỉ là học công nghệ, mà là học cách tư duy và giải quyết vấn đề.\" - AI Center"
+  },
+  {
+    "_id": "692c4f6caacc38d10c2da9fd",
+    "title": "Quantum Machine Learning: Tương lai của AI",
+    "content": "Quantum Machine Learning là sự kết hợp giữa quantum computing và ML, hứa hẹn giải quyết các bài toán phức tạp nhanh hơn gấp nhiều lần.",
+    "summary": "Kết hợp Quantum Computing và Machine Learning",
+    "image": "https://images.pexels.com/photos/8386434/pexels-photo-8386434.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "author": "692c4f6caacc38d10c2da997",
+    "category": "Research",
+    "tags": [
+      "Quantum",
+      "ML",
+      "Future"
+    ],
+    "views": 460,
+    "isPublished": true,
+    "createdAt": "2025-11-30T14:06:36.706Z",
+    "updatedAt": "2025-12-17T00:14:27.640Z",
+    "__v": 0,
+    "detailedContent": "Machine Learning - Nền tảng của AI hiện đại\n\n    Machine Learning (ML) là một nhánh của trí tuệ nhân tạo cho phép máy tính học từ dữ liệu mà không cần được lập trình cụ thể. Đây là công nghệ đằng sau nhiều ứng dụng mà chúng ta sử dụng hàng ngày.\n\n    \n    Các loại Machine Learning\n\n    \n      • Supervised Learning (Học có giám sát): Học từ dữ liệu đã được gán nhãn. Ví dụ: phân loại email spam, dự đoán giá nhà.\n\n      • Unsupervised Learning (Học không giám sát): Tìm kiếm pattern trong dữ liệu chưa gán nhãn. Ví dụ: phân cụm khách hàng, giảm chiều dữ liệu.\n\n      • Reinforcement Learning (Học tăng cường): Học thông qua thử và sai. Ví dụ: game AI, robot tự động.\n\n    \n\n    Quy trình xây dựng mô hình ML\n\n    \n      • Thu thập dữ liệu: Lấy dữ liệu từ nhiều nguồn khác nhau\n\n      • Tiền xử lý: Làm sạch, chuẩn hóa dữ liệu\n\n      • Feature Engineering: Tạo các đặc trưng hữu ích\n\n      • Chọn mô hình: Linear Regression, Decision Tree, Neural Network...\n\n      • Training: Huấn luyện mô hình với dữ liệu\n\n      • Evaluation: Đánh giá hiệu suất\n\n      • Deployment: Triển khai vào production\n\n    \n\n    \n      \"Machine Learning là khả năng học mà không được lập trình rõ ràng.\" - Arthur Samuel, 1959\n    \n\n    Công cụ phổ biến\n\n    Các thư viện Python được sử dụng rộng rãi:\n\n    \n      • Scikit-learn: Thư viện ML cổ điển, dễ sử dụng\n\n      • Pandas: Xử lý và phân tích dữ liệu\n\n      • NumPy: Tính toán số học\n\n      • Matplotlib/Seaborn: Trực quan hóa dữ liệu"
+  },
+  {
+    "_id": "692d3c7448b00eda00e675bd",
+    "title": "gg",
+    "content": "mo ta",
+    "summary": "demo",
+    "image": "",
+    "author": "692c4f6caacc38d10c2da997",
+    "category": "googl,e cloud",
+    "tags": [
+      ""
+    ],
+    "views": 0,
+    "isPublished": true,
+    "createdAt": "2025-12-01T06:57:56.315Z",
+    "updatedAt": "2025-12-17T00:14:27.717Z",
+    "__v": 0,
+    "detailedContent": "gg\n\n          Đây là một chủ đề quan trọng trong lĩnh vực Trí tuệ nhân tạo và Machine Learning. Hãy cùng tìm hiểu chi tiết về nó.\n\n          Tổng quan\n\n          demo\n\n          Tại sao chủ đề này quan trọng?\n\n          Trong bối cảnh công nghệ AI đang phát triển nhanh chóng, việc nắm bắt các xu hướng và kiến thức mới là vô cùng cần thiết. Chủ đề này giúp bạn:\n\n          \n            • Hiểu rõ hơn về công nghệ AI hiện đại\n\n            • Áp dụng kiến thức vào thực tế\n\n            • Nâng cao kỹ năng chuyên môn\n\n            • Mở rộng cơ hội nghề nghiệp\n\n          \n\n          Kiến thức cần có\n\n          Để hiểu sâu về chủ đề này, bạn nên có nền tảng về:\n\n          \n            • Toán học: Đại số tuyến tính, xác suất thống kê, giải tích\n\n            • Lập trình: Python, các thư viện ML/DL\n\n            • Machine Learning: Các thuật toán cơ bản\n\n            • Deep Learning: Neural Networks, backpropagation\n\n          \n\n          Tài nguyên học tập\n\n          \n            • Khóa học trực tuyến: Coursera, edX, Udacity\n\n            • Sách: \"Deep Learning\" by Goodfellow, \"Hands-On Machine Learning\"\n\n            • Paper: arXiv.org, Papers with Code\n\n            • Thực hành: Kaggle, GitHub projects\n\n          \n\n          Bước tiếp theo\n\n          Sau khi tìm hiểu về chủ đề này, bạn có thể:\n\n          \n            • Tham gia các khóa học chuyên sâu tại AI Center\n\n            • Thực hành với các dự án thực tế\n\n            • Tham gia cộng đồng AI để trao đổi\n\n            • Áp dụng vào công việc hoặc nghiên cứu\n\n          \n\n          \n            \"Học AI không chỉ là học công nghệ, mà là học cách tư duy và giải quyết vấn đề.\" - AI Center"
+  },
+  {
+    "_id": "6941f94881c45b5f86602545",
+    "title": "hala",
+    "content": "sdsd",
+    "summary": "asd",
+    "detailedContent": "sds",
+    "image": "",
+    "author": "692c4f6caacc38d10c2da997",
+    "category": "Tin tức",
+    "tags": [
+      ""
+    ],
+    "views": 2,
+    "isPublished": true,
+    "createdAt": "2025-12-17T00:28:56.186Z",
+    "updatedAt": "2025-12-17T00:29:06.723Z",
+    "__v": 0
+  }
+]

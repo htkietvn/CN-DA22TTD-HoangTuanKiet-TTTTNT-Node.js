@@ -1,0 +1,247 @@
+.team-page {
+  min-height: 100vh;
+  background: #ffffff;
+  padding-top: 80px;
+}
+
+.team-hero {
+  background: linear-gradient(135deg, #1e88e5 0%, #1565c0 50%, #0d47a1 100%);
+  text-align: center;
+  padding: 100px 20px 80px;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  border-bottom: none;
+}
+
+.team-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 50px 50px;
+  pointer-events: none;
+}
+
+.team-hero h1 {
+  font-size: 2.75rem;
+  margin-bottom: 20px;
+  font-weight: 800;
+  color: #ffffff;
+  position: relative;
+  z-index: 1;
+}
+
+@media (min-width: 768px) {
+  .team-hero h1 {
+    font-size: 3.25rem;
+  }
+}
+
+.team-hero p {
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.9);
+  position: relative;
+  z-index: 1;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+.team-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 60px 40px 80px;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 35px;
+}
+
+.team-card {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-card:hover {
+  transform: translateY(-12px);
+  background: #ffffff;
+  border-color: #1e88e5;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+
+.team-card-image {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+  background: #f5f5f5;
+  border-bottom: 1px solid #e0e0e0;
+  position: relative;
+}
+
+.team-card-image::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: linear-gradient(transparent, rgba(255, 255, 255, 0.8));
+}
+
+.team-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.team-card:hover .team-card-image img {
+  transform: scale(1.05);
+}
+
+.team-card-content {
+  padding: 28px;
+}
+
+.team-card-content h3 {
+  font-size: 1.5rem;
+  color: #424242;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.team-title {
+  color: #1e88e5;
+  font-weight: 600;
+  font-size: 1.125rem;
+  margin-bottom: 15px;
+}
+
+.team-description {
+  color: #616161;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+.team-contact {
+  margin-bottom: 15px;
+}
+
+.team-contact .contact-link {
+  display: block;
+  color: #616161;
+  text-decoration: none;
+  font-size: 0.9375rem;
+  margin-bottom: 8px;
+  transition: color 0.3s;
+}
+
+.team-contact .contact-link:hover {
+  color: #1e88e5;
+}
+
+.team-social {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.team-social .social-link {
+  display: inline-block;
+  background: rgba(30, 136, 229, 0.1);
+  border: 1px solid rgba(30, 136, 229, 0.3);
+  color: #1e88e5;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.team-social .social-link:hover {
+  background: linear-gradient(135deg, #1e88e5 0%, #1565c0 100%);
+  color: #ffffff;
+  border-color: transparent;
+  box-shadow: 0 4px 15px rgba(30, 136, 229, 0.3);
+}
+
+.team-expertise {
+  border-top: 1px solid #e0e0e0;
+  padding-top: 18px;
+}
+
+.team-expertise h4 {
+  color: #424242;
+  font-size: 0.9375rem;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.team-expertise ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.team-expertise li {
+  display: inline-block;
+  background: rgba(30, 136, 229, 0.1);
+  border: 1px solid rgba(30, 136, 229, 0.3);
+  color: #1e88e5;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.team-expertise li:hover {
+  background: rgba(30, 136, 229, 0.2);
+  border-color: rgba(30, 136, 229, 0.5);
+}
+
+@media (max-width: 1024px) {
+  .team-container {
+    padding: 50px 30px 70px;
+  }
+}
+
+@media (max-width: 768px) {
+  .team-hero {
+    padding: 80px 20px 60px;
+  }
+
+  .team-hero p {
+    font-size: 1.0625rem;
+  }
+
+  .team-container {
+    padding: 40px 20px 60px;
+  }
+
+  .team-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .team-card-image {
+    height: 200px;
+  }
+}

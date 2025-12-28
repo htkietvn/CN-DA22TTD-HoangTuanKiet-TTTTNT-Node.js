@@ -1,0 +1,295 @@
+/* My Courses Page - Light Blue & Orange Theme */
+.my-courses-page {
+  min-height: 100vh;
+  background: #ffffff;
+  padding-top: 80px;
+}
+
+.my-courses-page .page-header {
+  background: linear-gradient(135deg, #1e88e5 0%, #1565c0 50%, #0d47a1 100%);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.my-courses-page .page-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 50px 50px;
+  pointer-events: none;
+}
+
+.my-courses-page .page-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #ffffff;
+  position: relative;
+  z-index: 1;
+}
+
+.my-courses-page .page-header p {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.9);
+  position: relative;
+  z-index: 1;
+}
+
+.my-courses-page .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 80px 20px;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 16px;
+  margin: 40px auto;
+  max-width: 600px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.empty-state h3 {
+  font-size: 1.8rem;
+  color: #424242;
+  margin-bottom: 15px;
+}
+
+.empty-state p {
+  color: #616161;
+  margin-bottom: 30px;
+}
+
+.registrations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 30px;
+}
+
+.registration-card {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.registration-card:hover {
+  transform: translateY(-8px);
+  border-color: #1e88e5;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+
+.registration-image {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+}
+
+.registration-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.registration-card:hover .registration-image img {
+  transform: scale(1.05);
+}
+
+.status-badge {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.status-pending {
+  background: linear-gradient(135deg, #ff9800 0%, #f57c00 100%);
+}
+
+.status-approved {
+  background: linear-gradient(135deg, #4caf50 0%, #388e3c 100%);
+}
+
+.status-rejected {
+  background: linear-gradient(135deg, #f44336 0%, #d32f2f 100%);
+}
+
+.registration-content {
+  padding: 25px;
+}
+
+.registration-content h3 {
+  font-size: 1.4rem;
+  color: #424242;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+/* Batch info card */
+.batch-info-card {
+  background: rgba(30, 136, 229, 0.08);
+  border: 1px solid rgba(30, 136, 229, 0.3);
+  border-radius: 10px;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+}
+
+.batch-label {
+  font-weight: 600;
+  color: #1e88e5;
+  font-size: 0.95rem;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.batch-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 0.85rem;
+  color: #616161;
+}
+
+.batch-details span {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.registration-info {
+  margin-bottom: 20px;
+}
+
+.info-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.info-item:last-child {
+  border-bottom: none;
+}
+
+.info-item .label {
+  color: #757575;
+  font-weight: 500;
+}
+
+.info-item .value {
+  color: #424242;
+  font-weight: 600;
+}
+
+.info-item .price {
+  color: #ff9800;
+  font-size: 1.1rem;
+}
+
+.registration-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.registration-actions .btn {
+  flex: 1;
+  text-align: center;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.registration-actions .btn-outline {
+  background: transparent;
+  border: 2px solid #1e88e5;
+  color: #1e88e5;
+}
+
+.registration-actions .btn-outline:hover {
+  background: linear-gradient(135deg, #1e88e5 0%, #1565c0 100%);
+  color: #ffffff;
+  border-color: transparent;
+}
+
+.registration-actions .btn-primary {
+  background: linear-gradient(135deg, #ff9800 0%, #f57c00 100%);
+  color: #ffffff;
+  border: none;
+  box-shadow: 0 4px 15px rgba(255, 152, 0, 0.3);
+}
+
+.registration-actions .btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 152, 0, 0.4);
+}
+
+/* Payment status */
+.payment-unpaid {
+  color: #ff9800 !important;
+}
+
+.payment-paid {
+  color: #4caf50 !important;
+}
+
+/* Button danger */
+.btn-danger {
+  background: linear-gradient(135deg, #f44336 0%, #d32f2f 100%);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(244, 67, 54, 0.3);
+}
+
+.btn-danger:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(244, 67, 54, 0.4);
+}
+
+/* Loading */
+.my-courses-page .loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #1e88e5;
+  font-size: 1.25rem;
+}
+
+@media (max-width: 768px) {
+  .registrations-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .my-courses-page .page-header h1 {
+    font-size: 2rem;
+  }
+
+  .my-courses-page .page-header {
+    padding: 40px 20px;
+  }
+}

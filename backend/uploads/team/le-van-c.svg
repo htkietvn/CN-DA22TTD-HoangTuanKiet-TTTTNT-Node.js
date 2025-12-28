@@ -1,0 +1,39 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#27AE60"/>
+  
+  <!-- Face -->
+  <circle cx="200" cy="160" r="70" fill="#FFD4A3"/>
+  
+  <!-- Hair (Short) -->
+  <path d="M 130 130 Q 130 70 200 70 Q 270 70 270 130" fill="#1C2833"/>
+  
+  <!-- Eyes -->
+  <circle cx="180" cy="155" r="8" fill="#2C3E50"/>
+  <circle cx="220" cy="155" r="8" fill="#2C3E50"/>
+  <circle cx="182" cy="153" r="3" fill="#FFFFFF"/>
+  <circle cx="222" cy="153" r="3" fill="#FFFFFF"/>
+  
+  <!-- Eyebrows -->
+  <path d="M 165 140 Q 180 135 190 140" stroke="#1C2833" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M 210 140 Q 220 135 235 140" stroke="#1C2833" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Nose -->
+  <path d="M 200 165 L 195 180 L 205 180 Z" fill="#E6B88A"/>
+  
+  <!-- Smile -->
+  <path d="M 180 190 Q 200 205 220 190" stroke="#2C3E50" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Body/Shirt with Tie -->
+  <rect x="130" y="230" width="140" height="170" fill="#2980B9" rx="10"/>
+  <polygon points="200,230 190,260 210,260" fill="#C0392B"/>
+  <rect x="195" y="260" width="10" height="80" fill="#C0392B"/>
+  
+  <!-- Beard -->
+  <path d="M 170 200 Q 200 215 230 200" fill="#1C2833"/>
+  
+  <!-- Name Badge -->
+  <rect x="100" y="320" width="200" height="60" fill="#FFFFFF" rx="5"/>
+  <text x="200" y="345" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#2C3E50">ThS. Lê Văn C</text>
+  <text x="200" y="365" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#7F8C8D">Chuyên gia DL</text>
+</svg>

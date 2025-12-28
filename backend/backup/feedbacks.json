@@ -1,0 +1,38 @@
+[
+  {
+    "_id": "692d3c1048b00eda00e675a4",
+    "name": "qs",
+    "email": "minh@gmail.com",
+    "phone": "123",
+    "subject": "w",
+    "message": "1",
+    "status": "pending",
+    "createdAt": "2025-12-01T06:56:16.341Z",
+    "updatedAt": "2025-12-01T06:56:16.341Z",
+    "__v": 0
+  },
+  {
+    "_id": "692d4f2c7c0bddac4ff44efb",
+    "name": "kiet",
+    "email": "hoangtuankiet3102004@gmail.com",
+    "phone": "0782901800",
+    "subject": "Hello",
+    "message": "Con cá",
+    "status": "pending",
+    "createdAt": "2025-12-01T08:17:48.694Z",
+    "updatedAt": "2025-12-01T08:17:48.694Z",
+    "__v": 0
+  },
+  {
+    "_id": "692d516d0b29060dd127a1b0",
+    "name": "k",
+    "email": "hoangtuankiet3102004@gmail.com",
+    "phone": "0782901800",
+    "subject": "Hi",
+    "message": "Hello",
+    "status": "read",
+    "createdAt": "2025-12-01T08:27:25.499Z",
+    "updatedAt": "2025-12-07T15:14:37.835Z",
+    "__v": 0
+  }
+]

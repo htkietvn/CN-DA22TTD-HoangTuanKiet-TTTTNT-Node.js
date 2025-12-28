@@ -1,0 +1,80 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#FDF5E6"/>
+  
+  <!-- Floor -->
+  <rect x="0" y="280" width="600" height="120" fill="#D2B48C"/>
+  
+  <!-- Wall -->
+  <rect x="0" y="0" width="600" height="280" fill="#F5DEB3"/>
+  
+  <!-- Large Bookshelf Left -->
+  <rect x="30" y="60" width="120" height="220" fill="#8B4513"/>
+  <rect x="35" y="65" width="110" height="35" fill="#A0522D"/>
+  <rect x="35" y="105" width="110" height="35" fill="#A0522D"/>
+  <rect x="35" y="145" width="110" height="35" fill="#A0522D"/>
+  <rect x="35" y="185" width="110" height="35" fill="#A0522D"/>
+  <rect x="35" y="225" width="110" height="50" fill="#A0522D"/>
+  
+  <!-- Books on Left Shelf -->
+  <rect x="40" y="70" width="12" height="30" fill="#E74C3C"/>
+  <rect x="54" y="70" width="12" height="30" fill="#3498DB"/>
+  <rect x="68" y="70" width="12" height="30" fill="#27AE60"/>
+  <rect x="82" y="70" width="12" height="30" fill="#F39C12"/>
+  <rect x="96" y="70" width="12" height="30" fill="#9B59B6"/>
+  <rect x="110" y="70" width="12" height="30" fill="#E67E22"/>
+  <rect x="124" y="70" width="12" height="30" fill="#1ABC9C"/>
+  
+  <rect x="40" y="110" width="12" height="30" fill="#9B59B6"/>
+  <rect x="54" y="110" width="12" height="30" fill="#E74C3C"/>
+  <rect x="68" y="110" width="12" height="30" fill="#F39C12"/>
+  <rect x="82" y="110" width="12" height="30" fill="#3498DB"/>
+  <rect x="96" y="110" width="12" height="30" fill="#27AE60"/>
+  <rect x="110" y="110" width="12" height="30" fill="#E67E22"/>
+  <rect x="124" y="110" width="12" height="30" fill="#1ABC9C"/>
+  
+  <!-- Large Bookshelf Right -->
+  <rect x="450" y="60" width="120" height="220" fill="#8B4513"/>
+  <rect x="455" y="65" width="110" height="35" fill="#A0522D"/>
+  <rect x="455" y="105" width="110" height="35" fill="#A0522D"/>
+  <rect x="455" y="145" width="110" height="35" fill="#A0522D"/>
+  <rect x="455" y="185" width="110" height="35" fill="#A0522D"/>
+  <rect x="455" y="225" width="110" height="50" fill="#A0522D"/>
+  
+  <!-- Books on Right Shelf -->
+  <rect x="460" y="70" width="12" height="30" fill="#3498DB"/>
+  <rect x="474" y="70" width="12" height="30" fill="#E74C3C"/>
+  <rect x="488" y="70" width="12" height="30" fill="#27AE60"/>
+  <rect x="502" y="70" width="12" height="30" fill="#9B59B6"/>
+  <rect x="516" y="70" width="12" height="30" fill="#F39C12"/>
+  <rect x="530" y="70" width="12" height="30" fill="#1ABC9C"/>
+  <rect x="544" y="70" width="12" height="30" fill="#E67E22"/>
+  
+  <!-- Reading Table -->
+  <rect x="200" y="200" width="200" height="80" fill="#8B4513" rx="5"/>
+  <rect x="190" y="280" width="20" height="20" fill="#654321"/>
+  <rect x="390" y="280" width="20" height="20" fill="#654321"/>
+  
+  <!-- Books on Table -->
+  <rect x="220" y="185" width="40" height="20" fill="#E74C3C"/>
+  <rect x="265" y="185" width="40" height="20" fill="#3498DB"/>
+  <rect x="310" y="185" width="40" height="20" fill="#27AE60"/>
+  
+  <!-- Laptop -->
+  <rect x="230" y="210" width="140" height="60" fill="#2C3E50" rx="3"/>
+  <rect x="235" y="215" width="130" height="50" fill="#3498DB"/>
+  <text x="300" y="245" font-family="monospace" font-size="14" fill="#FFFFFF" text-anchor="middle">AI Library</text>
+  
+  <!-- Chair -->
+  <ellipse cx="300" cy="310" rx="35" ry="12" fill="#7F8C8D"/>
+  <rect x="290" y="300" width="20" height="15" fill="#7F8C8D"/>
+  
+  <!-- Ceiling Lamp -->
+  <rect x="280" y="20" width="40" height="10" fill="#F39C12"/>
+  <path d="M 280 30 L 300 50 L 320 30 Z" fill="#F1C40F"/>
+  <ellipse cx="300" cy="50" rx="30" ry="10" fill="#F1C40F" opacity="0.5"/>
+  
+  <!-- Title -->
+  <rect x="150" y="350" width="300" height="40" fill="#FFFFFF" rx="5"/>
+  <text x="300" y="375" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#2C3E50">Thư Viện</text>
+</svg>

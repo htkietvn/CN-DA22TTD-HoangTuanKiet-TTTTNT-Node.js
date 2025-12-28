@@ -1,0 +1,22 @@
+[
+  {
+    "_id": "692c4f6caacc38d10c2da997",
+    "name": "Admin AI Center",
+    "email": "admin@aicenter.vn",
+    "password": "$2a$10$ts.LtgdbIqqBKKl1j/LupOi8OhYxiyWuk69xIig9weaMflqiuo1q6",
+    "role": "admin",
+    "createdAt": "2025-11-30T14:06:36.331Z",
+    "updatedAt": "2025-11-30T14:06:36.331Z",
+    "__v": 0
+  },
+  {
+    "_id": "692c4f6caacc38d10c2da999",
+    "name": "Nguyễn Văn A",
+    "email": "user@gmail.com",
+    "password": "$2a$10$kr9RyIL2UMM/MOLCfsl7vOoGJEPMEL.owza2in2.wzk0uOaC99ZVC",
+    "role": "user",
+    "createdAt": "2025-11-30T14:06:36.474Z",
+    "updatedAt": "2025-11-30T14:06:36.474Z",
+    "__v": 0
+  }
+]

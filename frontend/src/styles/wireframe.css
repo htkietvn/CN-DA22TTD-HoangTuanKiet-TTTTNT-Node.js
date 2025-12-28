@@ -1,0 +1,288 @@
+/* ===== WIREFRAME STYLE - Kiểu phác thảo đơn giản ===== */
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+/* Reset - Loại bỏ tất cả màu sắc và hiệu ứng */
+* {
+  background-image: none !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  transition: none !important;
+  animation: none !important;
+}
+
+:root {
+  --wire-bg: #ffffff;
+  --wire-border: #333333;
+  --wire-text: #333333;
+  --wire-text-light: #666666;
+  --wire-link: #6b5b95;
+}
+
+body {
+  font-family: 'Architects Daughter', cursive !important;
+  background: var(--wire-bg) !important;
+  color: var(--wire-text) !important;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+body::before, body::after,
+.grid-overlay, .data-beam, .glow-spot, .mesh-gradient,
+.ai-visual-left, .ai-visual-right {
+  display: none !important;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6, p, span, a, li, label, input, textarea, select, button, div {
+  font-family: 'Architects Daughter', cursive !important;
+  color: var(--wire-text) !important;
+}
+
+h1 { font-size: 2rem !important; }
+h2 { font-size: 1.6rem !important; }
+h3 { font-size: 1.3rem !important; }
+h4 { font-size: 1.1rem !important; }
+
+a { color: var(--wire-link) !important; text-decoration: underline !important; }
+a:hover { color: #333 !important; }
+
+/* Header */
+.header, header, nav, .navbar {
+  background: var(--wire-bg) !important;
+  border-bottom: 1px solid var(--wire-border) !important;
+}
+
+.header *, header *, nav *, .navbar * {
+  color: var(--wire-text) !important;
+}
+
+/* Buttons */
+.btn, button, input[type="submit"], input[type="button"],
+.btn-primary, .btn-secondary, .btn-outline,
+.submit-btn, .view-profile-btn, .team-view-btn-unified {
+  background: var(--wire-bg) !important;
+  color: var(--wire-text) !important;
+  border: 1px solid var(--wire-border) !important;
+  border-radius: 0 !important;
+  padding: 8px 16px !important;
+  font-size: 1rem !important;
+  cursor: pointer;
+}
+
+.btn:hover, button:hover {
+  background: #f5f5f5 !important;
+}
+
+.btn::before, button::before {
+  display: none !important;
+}
+
+/* Forms */
+input, textarea, select {
+  background: var(--wire-bg) !important;
+  border: 1px solid var(--wire-border) !important;
+  border-radius: 0 !important;
+  padding: 10px 12px !important;
+  color: var(--wire-text) !important;
+  font-size: 1rem !important;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: 1px solid var(--wire-link) !important;
+  border-color: var(--wire-link) !important;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #999 !important;
+  font-style: italic !important;
+}
+
+.form-group label, .form-label {
+  color: var(--wire-text) !important;
+  font-weight: normal !important;
+}
+
+/* Cards */
+.card, .course-card, .news-card, .team-card, .stat-card,
+.feature-card, .partner-card, .team-card-unified,
+.instructor-detail-card, .facility-card, .admin-card {
+  background: var(--wire-bg) !important;
+  border: 1px solid var(--wire-border) !important;
+  border-radius: 0 !important;
+}
+
+.card:hover, .course-card:hover, .news-card:hover,
+.team-card:hover, .team-card-unified:hover {
+  transform: none !important;
+}
+
+/* Images - Grayscale */
+img {
+  filter: grayscale(100%) !important;
+  opacity: 0.8 !important;
+}
+
+.course-image, .news-image, .team-card-image-unified,
+.card-image, .placeholder {
+  background: #f0f0f0 !important;
+  border-bottom: 1px solid #ccc !important;
+}
+
+/* Page sections */
+.page-header, .hero, .hero-section {
+  background: var(--wire-bg) !important;
+  border-bottom: 1px solid var(--wire-border) !important;
+}
+
+.page-header::before, .page-header::after,
+.hero::before, .hero::after {
+  display: none !important;
+}
+
+section {
+  background: var(--wire-bg) !important;
+}
+
+/* Footer */
+.footer, footer {
+  background: var(--wire-bg) !important;
+  border-top: 1px solid var(--wire-border) !important;
+}
+
+/* Sidebar */
+.sidebar, .sidebar-admin {
+  background: var(--wire-bg) !important;
+  border-right: 1px solid var(--wire-border) !important;
+}
+
+.sidebar a, .sidebar-admin a {
+  border: none !important;
+}
+
+.sidebar a:hover, .sidebar-admin a:hover,
+.sidebar a.active, .sidebar-admin a.active {
+  background: #f5f5f5 !important;
+}
+
+/* Tables */
+table {
+  background: var(--wire-bg) !important;
+  border: 1px solid var(--wire-border) !important;
+  border-collapse: collapse !important;
+}
+
+table th {
+  background: #f5f5f5 !important;
+  border: 1px solid var(--wire-border) !important;
+}
+
+table td {
+  border: 1px solid #ccc !important;
+}
+
+/* Tabs */
+.tabs {
+  background: var(--wire-bg) !important;
+  border: 1px solid var(--wire-border) !important;
+}
+
+.tabs button {
+  background: transparent !important;
+  border: none !important;
+  border-bottom: 2px solid transparent !important;
+}
+
+.tabs button.active {
+  border-bottom-color: var(--wire-border) !important;
+}
+
+.tabs button::before {
+  display: none !important;
+}
+
+.tab-content {
+  background: var(--wire-bg) !important;
+  border: 1px solid var(--wire-border) !important;
+}
+
+/* Modal */
+.modal-content {
+  background: var(--wire-bg) !important;
+  border: 1px solid var(--wire-border) !important;
+  border-radius: 0 !important;
+}
+
+.modal-header {
+  background: var(--wire-bg) !important;
+  border-bottom: 1px solid var(--wire-border) !important;
+}
+
+/* Badges, tags */
+.badge, .tag, .category-tag, .status-badge {
+  background: var(--wire-bg) !important;
+  border: 1px solid var(--wire-border) !important;
+  border-radius: 0 !important;
+  color: var(--wire-text) !important;
+}
+
+/* Social icons */
+.social-icon, .social-link {
+  background: var(--wire-bg) !important;
+  border: 1px solid var(--wire-border) !important;
+  color: var(--wire-text) !important;
+}
+
+/* Stats */
+.stat-card, .stat-box, .stat-icon {
+  background: var(--wire-bg) !important;
+  border: 1px solid var(--wire-border) !important;
+}
+
+.stat-number, .stat-value {
+  color: var(--wire-text) !important;
+}
+
+/* Filters */
+.filters, .news-filters, .courses-filters {
+  background: var(--wire-bg) !important;
+  border: 1px solid var(--wire-border) !important;
+}
+
+/* Notifications */
+.notification-bell {
+  background: transparent !important;
+  border: 1px solid var(--wire-border) !important;
+}
+
+/* Avatar */
+.avatar, .profile-avatar, .user-avatar {
+  border: 1px solid var(--wire-border) !important;
+  filter: grayscale(100%) !important;
+}
+
+/* Dropdown */
+.dropdown-menu, .dropdown-content {
+  background: var(--wire-bg) !important;
+  border: 1px solid var(--wire-border) !important;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #f0f0f0; }
+::-webkit-scrollbar-thumb { background: #999; }
+
+/* Icons */
+svg, .icon, i {
+  color: var(--wire-text) !important;
+}
+
+/* Remove gradients from specific elements */
+.org-box, .contact-info .icon {
+  background: var(--wire-bg) !important;
+  border: 1px solid var(--wire-border) !important;
+}
+
+/* Copyright text style */
+.footer p, footer p {
+  font-style: italic !important;
+}

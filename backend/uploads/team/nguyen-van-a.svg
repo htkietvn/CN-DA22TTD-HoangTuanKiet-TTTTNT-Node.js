@@ -1,0 +1,36 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#4A90E2"/>
+  
+  <!-- Face -->
+  <circle cx="200" cy="160" r="70" fill="#FFD4A3"/>
+  
+  <!-- Hair -->
+  <path d="M 130 130 Q 130 80 200 80 Q 270 80 270 130 Q 270 100 200 100 Q 130 100 130 130" fill="#2C3E50"/>
+  
+  <!-- Eyes -->
+  <circle cx="180" cy="155" r="8" fill="#2C3E50"/>
+  <circle cx="220" cy="155" r="8" fill="#2C3E50"/>
+  <circle cx="182" cy="153" r="3" fill="#FFFFFF"/>
+  <circle cx="222" cy="153" r="3" fill="#FFFFFF"/>
+  
+  <!-- Nose -->
+  <path d="M 200 165 L 195 180 L 205 180 Z" fill="#E6B88A"/>
+  
+  <!-- Smile -->
+  <path d="M 180 190 Q 200 200 220 190" stroke="#2C3E50" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Body/Shirt -->
+  <rect x="130" y="230" width="140" height="170" fill="#34495E" rx="10"/>
+  <path d="M 200 230 L 180 260 L 220 260 Z" fill="#FFFFFF"/>
+  
+  <!-- Glasses -->
+  <circle cx="180" cy="155" r="18" fill="none" stroke="#2C3E50" stroke-width="2"/>
+  <circle cx="220" cy="155" r="18" fill="none" stroke="#2C3E50" stroke-width="2"/>
+  <line x1="198" y1="155" x2="202" y2="155" stroke="#2C3E50" stroke-width="2"/>
+  
+  <!-- Name Badge -->
+  <rect x="100" y="320" width="200" height="60" fill="#FFFFFF" rx="5"/>
+  <text x="200" y="345" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#2C3E50">TS. Nguyễn Văn A</text>
+  <text x="200" y="365" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#7F8C8D">Chuyên gia AI</text>
+</svg>

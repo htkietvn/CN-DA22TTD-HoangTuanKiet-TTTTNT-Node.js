@@ -1,0 +1,41 @@
+.not-found-page {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #1e88e5 0%, #1565c0 100%);
+}
+
+.not-found-content {
+  text-align: center;
+  color: white;
+}
+
+.error-code {
+  font-size: 10rem;
+  font-weight: bold;
+  margin: 0;
+  line-height: 1;
+  text-shadow: 0 5px 20px rgba(0,0,0,0.3);
+}
+
+.not-found-content h2 {
+  font-size: 2.5rem;
+  margin: 20px 0;
+}
+
+.not-found-content p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  opacity: 0.9;
+}
+
+.not-found-content .btn {
+  background: white;
+  color: #1e88e5;
+}
+
+.not-found-content .btn:hover {
+  background: #f8f9fa;
+}

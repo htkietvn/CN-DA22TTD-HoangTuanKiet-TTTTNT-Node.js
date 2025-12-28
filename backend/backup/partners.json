@@ -1,0 +1,90 @@
+[
+  {
+    "_id": "692c320d79e8c06618bc34c5",
+    "name": "Google",
+    "logo": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
+    "website": "https://www.google.com",
+    "description": "Đối tác công nghệ hàng đầu thế giới",
+    "isActive": true,
+    "createdAt": "2025-11-30T12:01:17.862Z",
+    "updatedAt": "2025-11-30T12:01:17.862Z",
+    "__v": 0
+  },
+  {
+    "_id": "692c320d79e8c06618bc34c7",
+    "name": "Microsoft",
+    "logo": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31",
+    "website": "https://www.microsoft.com",
+    "description": "Đối tác chiến lược về AI và Cloud",
+    "isActive": true,
+    "createdAt": "2025-11-30T12:01:17.863Z",
+    "updatedAt": "2025-11-30T12:01:17.863Z",
+    "__v": 0
+  },
+  {
+    "_id": "692c320d79e8c06618bc34c9",
+    "name": "AWS",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
+    "website": "https://aws.amazon.com",
+    "description": "Nhà cung cấp dịch vụ cloud hàng đầu",
+    "isActive": true,
+    "createdAt": "2025-11-30T12:01:17.865Z",
+    "updatedAt": "2025-11-30T12:01:17.865Z",
+    "__v": 0
+  },
+  {
+    "_id": "692c320d79e8c06618bc34cb",
+    "name": "NVIDIA",
+    "logo": "https://www.nvidia.com/content/dam/en-zz/Solutions/about-nvidia/logo-and-brand/01-nvidia-logo-vert-500x200-2c50-d@2x.png",
+    "website": "https://www.nvidia.com",
+    "description": "Đối tác về GPU và AI Computing",
+    "isActive": true,
+    "createdAt": "2025-11-30T12:01:17.866Z",
+    "updatedAt": "2025-11-30T12:01:17.866Z",
+    "__v": 0
+  },
+  {
+    "_id": "692c320d79e8c06618bc34cd",
+    "name": "IBM",
+    "logo": "https://www.ibm.com/brand/experience-guides/developer/b1db1ae501d522a1a4b49613fe07c9f1/01_8-bar-positive.svg",
+    "website": "https://www.ibm.com",
+    "description": "Đối tác về Watson AI và Enterprise Solutions",
+    "isActive": true,
+    "createdAt": "2025-11-30T12:01:17.867Z",
+    "updatedAt": "2025-11-30T12:01:17.867Z",
+    "__v": 0
+  },
+  {
+    "_id": "692c320d79e8c06618bc34cf",
+    "name": "Intel",
+    "logo": "https://www.intel.com/content/dam/logos/intel-footer-logo.svg",
+    "website": "https://www.intel.com",
+    "description": "Đối tác về phần cứng và AI processors",
+    "isActive": true,
+    "createdAt": "2025-11-30T12:01:17.868Z",
+    "updatedAt": "2025-11-30T12:01:17.868Z",
+    "__v": 0
+  },
+  {
+    "_id": "692c320d79e8c06618bc34d1",
+    "name": "Meta",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Meta_Platforms_Inc._logo.svg",
+    "website": "https://www.meta.com",
+    "description": "Đối tác về AI Research và PyTorch",
+    "isActive": true,
+    "createdAt": "2025-11-30T12:01:17.869Z",
+    "updatedAt": "2025-11-30T12:01:17.869Z",
+    "__v": 0
+  },
+  {
+    "_id": "692c320d79e8c06618bc34d3",
+    "name": "OpenAI",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg",
+    "website": "https://www.openai.com",
+    "description": "Đối tác về Generative AI và GPT",
+    "isActive": true,
+    "createdAt": "2025-11-30T12:01:17.871Z",
+    "updatedAt": "2025-11-30T12:01:17.871Z",
+    "__v": 0
+  }
+]
