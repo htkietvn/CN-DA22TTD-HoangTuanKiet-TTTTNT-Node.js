@@ -1,0 +1,58 @@
+[
+  {
+    "_id": "694fa664a86c9100bdce02bc",
+    "name": "TS. Nguyễn Văn An",
+    "position": "Giám đốc Trung tâm",
+    "bio": "Tiến sĩ Khoa học Máy tính tại Đại học Stanford. Hơn 15 năm kinh nghiệm trong lĩnh vực AI và Machine Learning.",
+    "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400",
+    "email": "an.nguyen@aicenter.edu.vn",
+    "phone": "0901234567",
+    "order": 1,
+    "isActive": true,
+    "__v": 0,
+    "createdAt": "2025-12-27T09:27:00.922Z",
+    "updatedAt": "2025-12-27T09:27:00.922Z"
+  },
+  {
+    "_id": "694fa664a86c9100bdce02bd",
+    "name": "ThS. Trần Thị Bình",
+    "position": "Phó Giám đốc",
+    "bio": "Thạc sĩ AI tại MIT. Chuyên gia về Deep Learning và Computer Vision.",
+    "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400",
+    "email": "binh.tran@aicenter.edu.vn",
+    "phone": "0901234568",
+    "order": 2,
+    "isActive": true,
+    "__v": 0,
+    "createdAt": "2025-12-27T09:27:00.922Z",
+    "updatedAt": "2025-12-27T09:27:00.922Z"
+  },
+  {
+    "_id": "694fa664a86c9100bdce02be",
+    "name": "ThS. Lê Minh Cường",
+    "position": "Trưởng phòng Đào tạo",
+    "bio": "Thạc sĩ Khoa học Dữ liệu. 10 năm kinh nghiệm giảng dạy và phát triển chương trình đào tạo AI.",
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400",
+    "email": "cuong.le@aicenter.edu.vn",
+    "phone": "0901234569",
+    "order": 3,
+    "isActive": true,
+    "__v": 0,
+    "createdAt": "2025-12-27T09:27:00.922Z",
+    "updatedAt": "2025-12-27T09:27:00.922Z"
+  },
+  {
+    "_id": "694fa664a86c9100bdce02bf",
+    "name": "KS. Phạm Thị Dung",
+    "position": "Giảng viên Machine Learning",
+    "bio": "Kỹ sư AI tại Google. Chuyên gia về NLP và các mô hình ngôn ngữ lớn.",
+    "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400",
+    "email": "dung.pham@aicenter.edu.vn",
+    "phone": "0901234570",
+    "order": 4,
+    "isActive": true,
+    "__v": 0,
+    "createdAt": "2025-12-27T09:27:00.922Z",
+    "updatedAt": "2025-12-27T09:27:00.922Z"
+  }
+]

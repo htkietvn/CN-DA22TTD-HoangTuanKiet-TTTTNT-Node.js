@@ -6,10 +6,13 @@ require('dotenv').config({ path: path.join(__dirname, '../../.env') });
 // Import models
 const User = require('../models/User');
 const Course = require('../models/Course');
+const CourseBatch = require('../models/CourseBatch');
 const News = require('../models/News');
 const Partner = require('../models/Partner');
 const Feedback = require('../models/Feedback');
 const Registration = require('../models/Registration');
+const Notification = require('../models/Notification');
+const Team = require('../models/Team');
 
 const exportData = async () => {
   try {
@@ -25,10 +28,13 @@ const exportData = async () => {
     const collections = [
       { name: 'users', model: User },
       { name: 'courses', model: Course },
+      { name: 'coursebatches', model: CourseBatch },
       { name: 'news', model: News },
       { name: 'partners', model: Partner },
       { name: 'feedbacks', model: Feedback },
-      { name: 'registrations', model: Registration }
+      { name: 'registrations', model: Registration },
+      { name: 'notifications', model: Notification },
+      { name: 'teams', model: Team }
     ];
 
     for (const col of collections) {

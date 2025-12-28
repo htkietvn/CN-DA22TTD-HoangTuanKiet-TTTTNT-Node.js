@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "_id": "694fabb814fc98f521d84d83",
+    "user": "694fa663a86c9100bdce023c",
+    "title": "hi",
+    "message": "hãy đăng kí khóa học",
+    "type": "registration",
+    "isRead": true,
+    "link": "http://localhost:5173/courses",
+    "createdAt": "2025-12-27T09:49:44.622Z",
+    "updatedAt": "2025-12-28T02:19:31.191Z",
+    "__v": 0
+  }
+]

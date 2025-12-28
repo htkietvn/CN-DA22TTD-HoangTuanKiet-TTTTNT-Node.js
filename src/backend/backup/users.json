@@ -1,22 +1,23 @@
 [
   {
-    "_id": "692c4f6caacc38d10c2da997",
+    "_id": "694fa663a86c9100bdce023a",
     "name": "Admin AI Center",
     "email": "admin@aicenter.vn",
-    "password": "$2a$10$ts.LtgdbIqqBKKl1j/LupOi8OhYxiyWuk69xIig9weaMflqiuo1q6",
+    "password": "$2a$10$s.6PfYGICe3SC.VvHA0x5.IK8YVoG5DE4yFUfG0ZjrFrkHu.vAIw2",
     "role": "admin",
-    "createdAt": "2025-11-30T14:06:36.331Z",
-    "updatedAt": "2025-11-30T14:06:36.331Z",
-    "__v": 0
+    "createdAt": "2025-12-27T09:26:59.542Z",
+    "updatedAt": "2025-12-27T10:04:19.709Z",
+    "__v": 0,
+    "avatar": "/uploads/avatars/694fa663a86c9100bdce023a_1766829859697.png"
   },
   {
-    "_id": "692c4f6caacc38d10c2da999",
+    "_id": "694fa663a86c9100bdce023c",
     "name": "Nguyễn Văn A",
     "email": "user@gmail.com",
-    "password": "$2a$10$kr9RyIL2UMM/MOLCfsl7vOoGJEPMEL.owza2in2.wzk0uOaC99ZVC",
+    "password": "$2a$10$HGomlaA5skbW6ARuLHn1SOMmo1kfsEzQuUqD/T4.J4WRIi1l1yR6y",
     "role": "user",
-    "createdAt": "2025-11-30T14:06:36.474Z",
-    "updatedAt": "2025-11-30T14:06:36.474Z",
+    "createdAt": "2025-12-27T09:26:59.841Z",
+    "updatedAt": "2025-12-27T09:26:59.841Z",
     "__v": 0
   }
 ]
