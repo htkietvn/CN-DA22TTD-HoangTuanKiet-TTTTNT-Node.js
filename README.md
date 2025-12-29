@@ -60,10 +60,7 @@ VITE_API_URL=http://localhost:5000/api
 npm run dev
 ```
 
-### Docker (Optional)
-```bash
-docker-compose up -d
-```
+
 
 ## 📁 Cấu trúc dự án
 
