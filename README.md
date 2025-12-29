@@ -236,7 +236,7 @@ AI-Center-Website/
 | DELETE | `/image/:type/:filename` | Xóa ảnh | Admin |
 
 ## 👥 Tác giả
-AI Center Development Team
+**Hoàng Tuấn Kiệt** - DA22TTD - Trường Đại học Trà Vinh
 
 ## 📝 License
 MIT License
