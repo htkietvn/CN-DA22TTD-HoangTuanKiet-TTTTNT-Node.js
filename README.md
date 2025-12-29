@@ -133,41 +133,110 @@ AI-Center-Website/
 
 ## 📄 API Endpoints
 
-### Auth
-- POST `/api/auth/register` - Đăng ký
-- POST `/api/auth/login` - Đăng nhập
-- GET `/api/auth/profile` - Lấy thông tin user
+### Auth (`/api/auth`)
+| Method | Endpoint | Mô tả | Auth |
+|--------|----------|-------|------|
+| POST | `/register` | Đăng ký tài khoản | - |
+| POST | `/login` | Đăng nhập | - |
+| POST | `/forgot-password` | Quên mật khẩu | - |
+| GET | `/profile` | Lấy thông tin user | ✅ |
+| PUT | `/profile` | Cập nhật thông tin | ✅ |
+| POST | `/upload-avatar` | Upload ảnh đại diện | ✅ |
+| PUT | `/change-password` | Đổi mật khẩu | ✅ |
 
-### Courses
-- GET `/api/courses` - Danh sách khóa học
-- GET `/api/courses/:id` - Chi tiết khóa học
-- POST `/api/courses` - Tạo khóa học (Admin)
-- PUT `/api/courses/:id` - Cập nhật (Admin)
-- DELETE `/api/courses/:id` - Xóa (Admin)
+### Courses (`/api/courses`)
+| Method | Endpoint | Mô tả | Auth |
+|--------|----------|-------|------|
+| GET | `/` | Danh sách khóa học | - |
+| GET | `/:id` | Chi tiết khóa học | - |
+| POST | `/` | Tạo khóa học | Admin |
+| PUT | `/:id` | Cập nhật khóa học | Admin |
+| DELETE | `/:id` | Xóa khóa học | Admin |
 
-### News
-- GET `/api/news` - Danh sách tin tức
-- GET `/api/news/:id` - Chi tiết tin tức
-- POST `/api/news` - Tạo tin tức (Admin)
-- PUT `/api/news/:id` - Cập nhật (Admin)
-- DELETE `/api/news/:id` - Xóa (Admin)
+### Course Batches (`/api/batches`)
+| Method | Endpoint | Mô tả | Auth |
+|--------|----------|-------|------|
+| GET | `/open` | Danh sách lớp đang mở | - |
+| GET | `/course/:courseId` | Lớp theo khóa học | - |
+| GET | `/:id` | Chi tiết lớp | - |
+| GET | `/` | Tất cả lớp | Admin |
+| POST | `/` | Tạo lớp mới | Admin |
+| PUT | `/:id` | Cập nhật lớp | Admin |
+| PATCH | `/:id/status` | Cập nhật trạng thái | Admin |
+| DELETE | `/:id` | Xóa lớp | Admin |
 
-### Projects
-- GET `/api/projects` - Danh sách dự án
-- GET `/api/projects/:id` - Chi tiết dự án
-- POST `/api/projects` - Tạo dự án (Admin)
-- PUT `/api/projects/:id` - Cập nhật (Admin)
-- DELETE `/api/projects/:id` - Xóa (Admin)
+### News (`/api/news`)
+| Method | Endpoint | Mô tả | Auth |
+|--------|----------|-------|------|
+| GET | `/` | Danh sách tin tức | - |
+| GET | `/:id` | Chi tiết tin tức | - |
+| POST | `/` | Tạo tin tức | Admin |
+| PUT | `/:id` | Cập nhật tin tức | Admin |
+| DELETE | `/:id` | Xóa tin tức | Admin |
 
-### Feedback
-- POST `/api/feedback` - Gửi phản hồi
-- GET `/api/feedback` - Danh sách (Admin)
-- PATCH `/api/feedback/:id/status` - Cập nhật trạng thái (Admin)
+### Partners (`/api/partners`)
+| Method | Endpoint | Mô tả | Auth |
+|--------|----------|-------|------|
+| GET | `/` | Danh sách đối tác | - |
+| GET | `/:id` | Chi tiết đối tác | - |
+| POST | `/` | Tạo đối tác | Admin |
+| PUT | `/:id` | Cập nhật đối tác | Admin |
+| DELETE | `/:id` | Xóa đối tác | Admin |
 
-### Admin
-- GET `/api/admin/stats` - Thống kê dashboard
-- GET `/api/admin/users` - Danh sách users
-- PATCH `/api/admin/users/:id/role` - Cập nhật role
+### Team (`/api/team`)
+| Method | Endpoint | Mô tả | Auth |
+|--------|----------|-------|------|
+| GET | `/` | Danh sách thành viên | - |
+| GET | `/:id` | Chi tiết thành viên | - |
+
+### Feedback (`/api/feedback`)
+| Method | Endpoint | Mô tả | Auth |
+|--------|----------|-------|------|
+| POST | `/` | Gửi phản hồi | - |
+| GET | `/` | Danh sách phản hồi | Admin |
+| PATCH | `/:id/status` | Cập nhật trạng thái | Admin |
+| DELETE | `/:id` | Xóa phản hồi | Admin |
+
+### Registrations (`/api/registrations`)
+| Method | Endpoint | Mô tả | Auth |
+|--------|----------|-------|------|
+| POST | `/` | Đăng ký khóa học | ✅ |
+| GET | `/my-registrations` | Khóa học đã đăng ký | ✅ |
+| DELETE | `/cancel/:id` | Hủy đăng ký | ✅ |
+| GET | `/all` | Tất cả đăng ký | Admin |
+| PATCH | `/:id/status` | Cập nhật trạng thái | Admin |
+| PATCH | `/:id/payment` | Cập nhật thanh toán | Admin |
+| DELETE | `/:id` | Xóa đăng ký | Admin |
+
+### Notifications (`/api/notifications`)
+| Method | Endpoint | Mô tả | Auth |
+|--------|----------|-------|------|
+| GET | `/my` | Thông báo của tôi | ✅ |
+| PUT | `/:id/read` | Đánh dấu đã đọc | ✅ |
+| PUT | `/read-all` | Đánh dấu tất cả đã đọc | ✅ |
+| DELETE | `/:id` | Xóa thông báo | ✅ |
+| GET | `/all` | Tất cả thông báo | Admin |
+| POST | `/send` | Gửi cho 1 user | Admin |
+| POST | `/send-all` | Gửi cho tất cả | Admin |
+| PUT | `/admin/:id` | Cập nhật thông báo | Admin |
+| DELETE | `/admin/:id` | Xóa thông báo | Admin |
+
+### Admin (`/api/admin`)
+| Method | Endpoint | Mô tả | Auth |
+|--------|----------|-------|------|
+| GET | `/stats` | Thống kê dashboard | Admin |
+| GET | `/users` | Danh sách users | Admin |
+| PATCH | `/users/:id/role` | Cập nhật role | Admin |
+| PATCH | `/users/:id/reset-password` | Reset mật khẩu | Admin |
+| DELETE | `/users/:id` | Xóa user | Admin |
+
+### Upload (`/api/upload`)
+| Method | Endpoint | Mô tả | Auth |
+|--------|----------|-------|------|
+| POST | `/image` | Upload 1 ảnh | Admin |
+| POST | `/images` | Upload nhiều ảnh | Admin |
+| GET | `/list/:type` | Danh sách ảnh theo loại | Admin |
+| DELETE | `/image/:type/:filename` | Xóa ảnh | Admin |
 
 ## 👥 Tác giả
 AI Center Development Team
