@@ -130,6 +130,13 @@ AI-Center-Website/
 
 ## 📄 API Endpoints
 
+### Chú thích cột Auth
+| Ký hiệu | Ý nghĩa |
+|---------|---------|
+| `-` | Không cần đăng nhập |
+| ✅ | Cần đăng nhập (JWT token) |
+| Admin | Cần đăng nhập + quyền Admin |
+
 ### Auth (`/api/auth`)
 | Method | Endpoint | Mô tả | Auth |
 |--------|----------|-------|------|
