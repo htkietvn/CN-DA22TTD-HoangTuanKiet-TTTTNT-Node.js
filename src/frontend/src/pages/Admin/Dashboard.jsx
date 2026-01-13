@@ -85,7 +85,7 @@ const DashboardHome = () => {
             <p>Khóa học</p>
           </div>
         </div>
-        <div className="stat-card highlight">
+        <div className="stat-card">
           <div className="stat-icon">📝</div>
           <div className="stat-info">
             <h3>{stats.totalRegistrations}</h3>
