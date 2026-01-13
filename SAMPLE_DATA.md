@@ -5,7 +5,7 @@
 | Role | Email | Password |
 |------|-------|----------|
 | Admin | admin@aicenter.vn | 123456 |
-| User | user@gmail.com | 123456 |
+| User | user@gmail.com | user123 |
 
 ---
 
